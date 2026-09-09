@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Rajdhani", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --color-ink-950: #07090f;
+  --color-ink-900: #0b0f1a;
+  --color-ink-800: #121729;
+  --color-ink-700: #1a2036;
+  --color-ink-600: #232b47;
+
+  --color-sand-200: #f7ecd8;
+  --color-sand-300: #edd9ae;
+  --color-sand-400: #e3c081;
+
+  --color-sunset-400: #ff8a65;
+  --color-sunset-500: #ff6b5b;
+  --color-sunset-600: #ef4b6b;
+
+  --color-lime-400: #c6f24c;
+  --color-lime-500: #a8e024;
+
+  --color-gold-400: #ffd166;
+  --color-silver-400: #cbd5e1;
+  --color-bronze-400: #e0a45c;
+
+  --animate-fade-up: fade-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-pop: pop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(1200px 700px at 15% -10%, #1a2242 0%, transparent 55%),
+    radial-gradient(900px 600px at 110% 10%, #2a1b28 0%, transparent 55%),
+    var(--color-ink-900);
+  color: var(--color-sand-200);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100svh;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+::selection {
+  background: var(--color-sunset-500);
+  color: var(--color-ink-950);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.glass-panel {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.text-gradient-sunset {
+  background: linear-gradient(90deg, var(--color-sunset-500), var(--color-gold-400));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  z-index: 0;
+}
+
+/* Barra de rolagem discreta, no espírito do produto */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ink-600);
+  border-radius: 999px;
+}
