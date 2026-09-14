@@ -28,13 +28,13 @@ jobs:
       - name: Instalar dependências
         run: npm ci
 
-      - name: Baixar Excel do OneDrive
+      - name: Baixar planilha do Google Sheets
         env:
-          ONEDRIVE_SHARE_URL: ${{ secrets.ONEDRIVE_SHARE_URL }}
+          GOOGLE_SHEET_URL: ${{ secrets.GOOGLE_SHEET_URL }}
         run: node scripts/fetch-source.mjs
 
       - name: Gerar ranking.json
-        run: node scripts/sync.mjs data/source/onedrive-download.xlsx
+        run: node scripts/sync.mjs data/source/google-sheets-download.xlsx
 
       - name: Publicar se o ranking mudou
         run: |

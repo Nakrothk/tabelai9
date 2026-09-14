@@ -1,19 +1,20 @@
 #!/usr/bin/env node
 /**
- * Sincroniza o ranking Beach Tennis a partir do Excel oficial ("Super 8 - Fem.xlsx").
+ * Sincroniza o ranking Beach Tennis a partir da planilha oficial (Google Sheets, "Super 8 - Fem").
  *
- * Fonte oficial dos dados: a aba "RANKING GERAL" (consolidado, com fórmulas já calculadas).
- * As abas "Super ( E/D/C )" são usadas apenas para obter a data real de cada semana/etapa,
- * pois os rótulos de data dentro do RANKING GERAL às vezes ficam desatualizados.
+ * Fonte oficial dos dados: dentro de cada aba "Super ( E/D/C )", o bloco de ranking consolidado
+ * no final da aba (título "SUPER E/D/C"), que já contém as fórmulas e a pontuação oficial calculada.
+ * Os cabeçalhos de semana desse bloco às vezes ficam desatualizados — a data real de cada semana/etapa
+ * é obtida à parte, lendo os rótulos "SEMANA N ( data )" no topo da própria aba.
  *
  * Nenhuma regra de pontuação é recriada: pontos por etapa, bônus de participação e o total
- * (bônus + soma de pontos) são lidos diretamente dos valores/fórmulas já calculados pelo Excel.
+ * (bônus + soma de pontos) são lidos diretamente dos valores/fórmulas já calculados na planilha.
  * A única coisa "derivada" é a ordenação (ranking) e o corte progressivo por etapa, usados
  * para calcular posição atual, posição anterior e evolução — usando a mesma matemática oficial
  * aplicada em cada corte no tempo, sem inventar pontuação nova.
  *
  * Uso:
- *   node scripts/sync.mjs [caminho-para-o-excel.xlsx]
+ *   node scripts/sync.mjs [caminho-para-o-arquivo.xlsx]
  *
  * Se nenhum caminho for informado, procura em data/source/*.xlsx.
  */
@@ -29,17 +30,16 @@ const SOURCE_DIR = path.join(ROOT, 'data', 'source')
 
 const CATEGORIES = ['E', 'D', 'C']
 const SHEET_BY_CATEGORY = { E: 'Super ( E )', D: 'Super ( D )', C: 'Super ( C )' }
-const RANKING_SHEET = 'RANKING GERAL'
 const MAX_STAGES = 8
 
-// Colunas fixas do bloco "RANKING GERAL" (1-based). B=jogadores.
-const NAME_COL = 2
+// Colunas fixas do bloco de ranking consolidado (1-based). C=jogadores.
+const NAME_COL = 3
 // Para cada etapa: [Resultado, Vitória, Pontos]
-const STAGE_COLS = Array.from({ length: MAX_STAGES }, (_, i) => [3 + i * 3, 4 + i * 3, 5 + i * 3])
-const BONUS_COL = 27 // AA
-const TOTAL_VITORIAS_COL = 28 // AB
-const GAMES_POINTS_COL = 29 // AC
-const TOTAL_COL = 30 // AD
+const STAGE_COLS = Array.from({ length: MAX_STAGES }, (_, i) => [4 + i * 3, 5 + i * 3, 6 + i * 3])
+const BONUS_COL = 28 // AB
+const TOTAL_VITORIAS_COL = 29 // AC
+const GAMES_POINTS_COL = 30 // AD
+const TOTAL_COL = 31 // AE
 
 // Bônus por etapas jogadas, conforme a tabela de referência da própria planilha (AJ/AK).
 function bonusForStagesPlayed(n) {
@@ -89,26 +89,23 @@ function findSourceFile(argPath) {
   )
 }
 
-/** Extrai, por categoria, o mapa etapaIndex -> data real (string 'DD/MM' ou null) lendo as abas Super (X). */
-function extractStageDates(workbook) {
-  const result = {}
-  for (const category of CATEGORIES) {
-    const sheet = workbook.getWorksheet(SHEET_BY_CATEGORY[category])
-    const dates = {}
-    if (sheet) {
-      sheet.eachRow((row) => {
-        const label = cellVal(row.getCell(NAME_COL))
-        if (typeof label !== 'string') return
-        const m = label.match(/SEMANA\s*(\d+)\s*\(\s*([^)]*)\)/i)
-        if (!m) return
-        const idx = Number(m[1])
-        const rawDate = m[2].trim()
-        dates[idx] = /^data$/i.test(rawDate) || rawDate === '' || /^00/.test(rawDate) ? null : rawDate
-      })
+/** Extrai o mapa etapaIndex -> data real (string 'DD/MM' ou null) lendo os rótulos "SEMANA N ( data )" da aba. */
+function extractStageDates(sheet) {
+  const dates = {}
+  if (!sheet) return dates
+  sheet.eachRow((row) => {
+    for (let c = 1; c <= sheet.columnCount; c++) {
+      const label = cellVal(row.getCell(c))
+      if (typeof label !== 'string') continue
+      const m = label.match(/SEMANA\s*(\d+)\s*\(\s*([^)]*)\)/i)
+      if (!m) continue
+      const idx = Number(m[1])
+      const rawDate = m[2].trim()
+      dates[idx] = /^data$/i.test(rawDate) || rawDate === '' || /^00/.test(rawDate) ? null : rawDate
+      break
     }
-    result[category] = dates
-  }
-  return result
+  })
+  return dates
 }
 
 /** Encontra as linhas de título de cada bloco de categoria dentro da aba RANKING GERAL. */
@@ -316,20 +313,19 @@ async function main() {
   const workbook = new ExcelJS.Workbook()
   await workbook.xlsx.readFile(sourceFile)
 
-  const rankingSheet = workbook.getWorksheet(RANKING_SHEET)
-  if (!rankingSheet) throw new Error(`Aba "${RANKING_SHEET}" não encontrada no arquivo.`)
-
-  const stageDatesByCategory = extractStageDates(workbook)
-  const blocks = findCategoryBlocks(rankingSheet)
-  if (blocks.length === 0) throw new Error('Nenhum bloco "SUPER C/D/E" encontrado na aba RANKING GERAL.')
-
   const categories = {}
-  blocks.forEach((block, i) => {
-    const nextTitleRow = blocks[i + 1]?.titleRow
-    const parsed = parseCategoryBlock(rankingSheet, block, nextTitleRow, stageDatesByCategory[block.category])
+  for (const category of CATEGORIES) {
+    const sheet = workbook.getWorksheet(SHEET_BY_CATEGORY[category])
+    if (!sheet) throw new Error(`Aba "${SHEET_BY_CATEGORY[category]}" não encontrada no arquivo.`)
+
+    const stageDates = extractStageDates(sheet)
+    const block = findCategoryBlocks(sheet).find((b) => b.category === category)
+    if (!block) throw new Error(`Bloco "SUPER ${category}" não encontrado na aba "${SHEET_BY_CATEGORY[category]}".`)
+
+    const parsed = parseCategoryBlock(sheet, block, undefined, stageDates)
     const highlights = computeHighlights(parsed)
-    categories[block.category] = { ...parsed, ...highlights }
-  })
+    categories[category] = { ...parsed, ...highlights }
+  }
 
   const output = {
     generatedAt: new Date().toISOString(),

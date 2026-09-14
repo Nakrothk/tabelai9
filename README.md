@@ -5,10 +5,10 @@ Site público de acompanhamento do ranking de Beach Tennis (Super 8), somente le
 ## Como funciona (atualização automática)
 
 ```
-Você salva o Excel no OneDrive (fluxo normal, nada muda pra você)
-        ↓ OneDrive sincroniza sozinho na nuvem
+Você edita a planilha no Google Sheets (fluxo normal, nada muda pra você)
+        ↓ Google Sheets salva sozinho na nuvem
 GitHub Actions roda a cada 5 minutos:
-  1. baixa o Excel pelo link de compartilhamento (scripts/fetch-source.mjs)
+  1. baixa a planilha pelo link de compartilhamento (scripts/fetch-source.mjs)
   2. gera public/data/ranking.json (scripts/sync.mjs)
   3. se algo mudou, faz commit + push sozinho
         ↓
@@ -17,17 +17,17 @@ Vercel detecta o push e redeploya o site automaticamente
 site público atualizado, com atraso de até ~5 minutos
 ```
 
-Não existe backend, login ou banco de dados — e nenhuma credencial da Microsoft é usada. O download funciona através de um link de compartilhamento "qualquer pessoa com o link pode visualizar" (somente leitura), que é público por natureza; o único segredo guardado é o próprio link, salvo como *secret* do repositório para não aparecer nos logs.
+Não existe backend, login ou banco de dados — e nenhuma credencial do Google é usada. O download funciona através de um link de compartilhamento "qualquer pessoa com o link pode visualizar" (somente leitura), que é público por natureza; o único segredo guardado é o próprio link, salvo como *secret* do repositório para não aparecer nos logs.
 
-O `sync.mjs` lê a aba **RANKING GERAL** do Excel — que já contém as fórmulas e a pontuação oficial calculada — e gera um JSON estruturado que o site consome. As abas `Super ( E/D/C )` são usadas só para pegar a data real de cada semana/etapa. Nenhuma regra de pontuação é recriada: pontos por etapa, bônus de participação e o total são lidos diretamente dos valores já calculados no Excel. A única coisa calculada pelo script é a **ordenação** (posição) e o corte progressivo por etapa (para mostrar "posição anterior" e evolução) — usando a mesma matemática oficial, aplicada em cada etapa.
+O `sync.mjs` lê a aba **RANKING GERAL** da planilha — que já contém as fórmulas e a pontuação oficial calculada — e gera um JSON estruturado que o site consome. As abas `Super ( E/D/C )` são usadas só para pegar a data real de cada semana/etapa. Nenhuma regra de pontuação é recriada: pontos por etapa, bônus de participação e o total são lidos diretamente dos valores já calculados na planilha. A única coisa calculada pelo script é a **ordenação** (posição) e o corte progressivo por etapa (para mostrar "posição anterior" e evolução) — usando a mesma matemática oficial, aplicada em cada etapa.
 
-Isso significa que **novas etapas e novas jogadoras são detectadas automaticamente**, desde que sigam o mesmo padrão de colunas do Excel (cada categoria suporta até 8 etapas, que é o limite de colunas já desenhado na planilha).
+Isso significa que **novas etapas e novas jogadoras são detectadas automaticamente**, desde que sigam o mesmo padrão de colunas da planilha (cada categoria suporta até 8 etapas, que é o limite de colunas já desenhado na planilha).
 
 ### Configurar a automação (uma vez só)
 
-1. **Gerar o link de compartilhamento no OneDrive:** clique com o botão direito no arquivo → Compartilhar → "Qualquer pessoa com o link" → permissão **Somente visualização** (nunca "pode editar"). Copie o link.
+1. **Gerar o link de compartilhamento no Google Sheets:** abra a planilha → Compartilhar → "Qualquer pessoa com o link" → permissão **Leitor** (nunca "Editor"). Copie o link.
 2. **No GitHub**, vá em Settings → Secrets and variables → Actions → New repository secret:
-   - Nome: `ONEDRIVE_SHARE_URL`
+   - Nome: `GOOGLE_SHEET_URL`
    - Valor: o link copiado no passo 1
 3. **Conectar o repositório à Vercel** (vercel.com → Add New Project → importar o repositório do GitHub → Deploy). A partir daí, todo `git push` no branch principal redeploya sozinho.
 4. Pronto — o workflow `.github/workflows/sync.yml` já roda a cada 5 minutos automaticamente a partir do primeiro push.
