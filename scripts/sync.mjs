@@ -32,16 +32,9 @@ const SOURCE_DIR = path.join(ROOT, 'data', 'source')
 
 // Reconhece abas como "Super ( E )", "Super(B)", etc. — o texto entre parênteses vira o código da categoria.
 const CATEGORY_SHEET_PATTERN = /^super\s*\(\s*([^)]+?)\s*\)$/i
-const MAX_STAGES = 8
 
-// Colunas fixas do bloco de ranking consolidado (1-based). C=jogadores.
+// Coluna fixa do nome da jogadora no bloco de ranking consolidado (1-based). C=jogadores.
 const NAME_COL = 3
-// Para cada etapa: [Resultado, Vitória, Pontos]
-const STAGE_COLS = Array.from({ length: MAX_STAGES }, (_, i) => [4 + i * 3, 5 + i * 3, 6 + i * 3])
-const BONUS_COL = 28 // AB
-const TOTAL_VITORIAS_COL = 29 // AC
-const GAMES_POINTS_COL = 30 // AD
-const TOTAL_COL = 31 // AE
 
 // Bônus por etapas jogadas, conforme a tabela de referência da própria planilha (AJ/AK).
 function bonusForStagesPlayed(n) {
@@ -132,8 +125,39 @@ function discoverCategorySheets(workbook) {
   return found
 }
 
+/**
+ * Detecta o layout de colunas do bloco de ranking a partir do cabeçalho (título + 3 linhas abaixo),
+ * contando quantos grupos de 3 colunas ("RESULTADO ETAPA", "VITÓRIA ETAPA", "PONTOS RANKING") existem
+ * antes das colunas de totais (bônus, vitórias, pontos de games, total). Isso permite que a planilha
+ * ganhe novas etapas (colunas) sem precisar alterar o código.
+ */
+function detectBlockLayout(sheet, titleRow) {
+  const headerRow = sheet.getRow(titleRow + 3)
+  const stageCols = []
+  let col = NAME_COL + 1
+  while (true) {
+    const label = cellVal(headerRow.getCell(col))
+    if (typeof label !== 'string' || !/RESULTADO/i.test(label)) break
+    stageCols.push([col, col + 1, col + 2])
+    col += 3
+  }
+  if (stageCols.length === 0) {
+    throw new Error(
+      `Nenhuma coluna de etapa ("RESULTADO ETAPA") encontrada a partir da coluna ${col} na aba "${sheet.name}" (linha de cabeçalho ${titleRow + 3}).`,
+    )
+  }
+  return {
+    stageCols,
+    bonusCol: col,
+    totalVitoriasCol: col + 1,
+    gamesPointsCol: col + 2,
+    totalCol: col + 3,
+  }
+}
+
 function parseCategoryBlock(sheet, block, nextTitleRow, stageDates) {
   const { category, titleRow } = block
+  const layout = detectBlockLayout(sheet, titleRow)
   const dataStart = titleRow + 4
   const dataEnd = (nextTitleRow ?? sheet.rowCount + 1) - 1
 
@@ -152,7 +176,7 @@ function parseCategoryBlock(sheet, block, nextTitleRow, stageDates) {
   }
 
   // Etapas com pelo menos um resultado lançado.
-  const stageHasData = STAGE_COLS.map(([resultCol]) =>
+  const stageHasData = layout.stageCols.map(([resultCol]) =>
     rawPlayers.some((p) => numOrNull(cellVal(sheet.getRow(p.row).getCell(resultCol))) !== null),
   )
   let maxStageIndex = 0
@@ -160,7 +184,7 @@ function parseCategoryBlock(sheet, block, nextTitleRow, stageDates) {
     if (has) maxStageIndex = i + 1
   })
   // Inclui também etapas já agendadas (com data real) mesmo sem resultado ainda, para exibir em "próximas".
-  for (let i = 0; i < MAX_STAGES; i++) {
+  for (let i = 0; i < layout.stageCols.length; i++) {
     if (stageDates[i + 1] && i + 1 > maxStageIndex) maxStageIndex = i + 1
   }
 
@@ -169,7 +193,7 @@ function parseCategoryBlock(sheet, block, nextTitleRow, stageDates) {
   const players = rawPlayers.map(({ row, name }) => {
     const wsRow = sheet.getRow(row)
     const perStage = stageIndexes.map((stageIndex) => {
-      const [rc, vc, pc] = STAGE_COLS[stageIndex - 1]
+      const [rc, vc, pc] = layout.stageCols[stageIndex - 1]
       const resultado = numOrNull(cellVal(wsRow.getCell(rc)))
       const vitorias = numOrNull(cellVal(wsRow.getCell(vc)))
       const pontos = numOrNull(cellVal(wsRow.getCell(pc)))
@@ -187,10 +211,10 @@ function parseCategoryBlock(sheet, block, nextTitleRow, stageDates) {
       name,
       category,
       perStage,
-      finalBonus: numOrNull(cellVal(wsRow.getCell(BONUS_COL))) ?? 0,
-      finalWins: numOrNull(cellVal(wsRow.getCell(TOTAL_VITORIAS_COL))) ?? 0,
-      finalGamesPoints: numOrNull(cellVal(wsRow.getCell(GAMES_POINTS_COL))) ?? 0,
-      finalTotal: numOrNull(cellVal(wsRow.getCell(TOTAL_COL))) ?? 0,
+      finalBonus: numOrNull(cellVal(wsRow.getCell(layout.bonusCol))) ?? 0,
+      finalWins: numOrNull(cellVal(wsRow.getCell(layout.totalVitoriasCol))) ?? 0,
+      finalGamesPoints: numOrNull(cellVal(wsRow.getCell(layout.gamesPointsCol))) ?? 0,
+      finalTotal: numOrNull(cellVal(wsRow.getCell(layout.totalCol))) ?? 0,
     }
   })
 

@@ -19,9 +19,9 @@ site público atualizado, com atraso de até ~5 minutos
 
 Não existe backend, login ou banco de dados — e nenhuma credencial do Google é usada. O download funciona através de um link de compartilhamento "qualquer pessoa com o link pode visualizar" (somente leitura), que é público por natureza; o único segredo guardado é o próprio link, salvo como *secret* do repositório para não aparecer nos logs.
 
-O `sync.mjs` lê a aba **RANKING GERAL** da planilha — que já contém as fórmulas e a pontuação oficial calculada — e gera um JSON estruturado que o site consome. As abas `Super ( E/D/C )` são usadas só para pegar a data real de cada semana/etapa. Nenhuma regra de pontuação é recriada: pontos por etapa, bônus de participação e o total são lidos diretamente dos valores já calculados na planilha. A única coisa calculada pelo script é a **ordenação** (posição) e o corte progressivo por etapa (para mostrar "posição anterior" e evolução) — usando a mesma matemática oficial, aplicada em cada etapa.
+Cada categoria é uma aba chamada `Super ( X )` (ex: `Super ( E )`, `Super ( D )`, `Super ( C )`). Dentro de cada aba, o `sync.mjs` lê o bloco de ranking consolidado no final (título "SUPER X") — que já contém as fórmulas e a pontuação oficial calculada — e gera um JSON estruturado que o site consome. O topo da própria aba é usado só para pegar a data real de cada semana/etapa. Nenhuma regra de pontuação é recriada: pontos por etapa, bônus de participação e o total são lidos diretamente dos valores já calculados na planilha. A única coisa calculada pelo script é a **ordenação** (posição) e o corte progressivo por etapa (para mostrar "posição anterior" e evolução) — usando a mesma matemática oficial, aplicada em cada etapa.
 
-Isso significa que **novas etapas e novas jogadoras são detectadas automaticamente**, desde que sigam o mesmo padrão de colunas da planilha (cada categoria suporta até 8 etapas, que é o limite de colunas já desenhado na planilha).
+Isso significa que **novas etapas, novas jogadoras e novas categorias são detectadas automaticamente**, sem precisar mexer em nada: qualquer aba nova `Super ( X )` vira uma categoria nova no site, e o número de etapas por categoria também é detectado sozinho a partir das colunas de resultado já lançadas na planilha (não há mais um limite fixo).
 
 ### Configurar a automação (uma vez só)
 
@@ -90,7 +90,6 @@ Veja `src/types.ts` para os tipos completos (`Player`, `Stage`, etc.).
 
 ## Limitações conhecidas
 
-- O layout da planilha comporta no máximo **8 etapas por categoria** (é o desenho atual do Excel). Para mais etapas, a própria planilha precisaria ganhar novas colunas.
 - O "ranking daquela etapa" (histórico) ordena jogadoras empatadas em pontos pelo total de games como critério de desempate — a planilha original usa um confronto direto ("Simples") para desempate dentro do grupo de 8 da semana, que não é replicado aqui (afeta só a ordem entre jogadoras empatadas na mesma faixa de pontos dentro de uma única etapa, não a pontuação em si).
 - A imagem de compartilhamento (Open Graph, `public/og-cover.svg`) está em SVG; para preview perfeito no WhatsApp/Instagram, o ideal é exportar uma versão `.png` (1200×630) a partir dela antes de divulgar o link.
 - O GitHub Actions não garante rodar exatamente a cada 5 minutos — é o intervalo mínimo que ele aceita, mas pode atrasar em horários de pico da plataforma. Na prática, o ranking fica "quase em tempo real" (minutos de atraso), não instantâneo.
