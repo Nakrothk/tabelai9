@@ -18,6 +18,11 @@ export function PlayerPage({ data }: { data: RankingData }) {
     return <div className="py-24 text-center text-sand-300/60">Jogadora não encontrada.</div>
   }
 
+  const categoryStages = data.categories[player.category].stages
+  const stagePlacementOf = (stageIndex: number) =>
+    categoryStages.find((st) => st.index === stageIndex)?.ranking.find((r) => r.playerId === player.id)?.position ??
+    null
+
   const delta = positionDelta(player.position, player.previousPosition)
 
   return (
@@ -83,9 +88,9 @@ export function PlayerPage({ data }: { data: RankingData }) {
                     {s.resultado} games · {s.vitorias} vitórias
                   </span>
                   <span className="shrink-0 font-display text-base font-bold text-sand-100">+{s.pontos} pts</span>
-                  {s.position && (
+                  {stagePlacementOf(s.stageIndex) && (
                     <span className="shrink-0 rounded-full bg-white/5 px-2 py-1 text-[11px] font-semibold text-sand-300/60">
-                      {ordinal(s.position)}
+                      {ordinal(stagePlacementOf(s.stageIndex)!)}
                     </span>
                   )}
                 </>
