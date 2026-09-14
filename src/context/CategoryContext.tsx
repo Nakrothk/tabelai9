@@ -1,6 +1,5 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import type { Category, RankingData } from '../types'
-import { CATEGORIES } from '../types'
 
 interface CategoryContextValue {
   category: Category
@@ -14,14 +13,15 @@ const STORAGE_KEY = 'ranking-bt:category'
 
 export function CategoryProvider({ data, children }: { data: RankingData | null; children: ReactNode }) {
   const availableCategories = useMemo(
-    () => (data ? CATEGORIES.filter((c) => data.categories[c]?.players.length > 0) : CATEGORIES),
+    () => Object.keys(data?.categories ?? {}).filter((c) => (data?.categories[c]?.players.length ?? 0) > 0),
     [data],
   )
 
   const [category, setCategoryState] = useState<Category>(() => {
-    if (typeof window === 'undefined') return 'E'
-    const stored = window.localStorage.getItem(STORAGE_KEY) as Category | null
-    return stored ?? 'E'
+    if (typeof window === 'undefined') return availableCategories[0] ?? ''
+    const stored = window.localStorage.getItem(STORAGE_KEY)
+    if (stored && availableCategories.includes(stored)) return stored
+    return availableCategories[0] ?? ''
   })
 
   useEffect(() => {

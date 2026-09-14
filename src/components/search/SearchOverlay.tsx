@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Search, X } from 'lucide-react'
 import type { RankingData } from '../../types'
-import { CATEGORY_LABEL } from '../../types'
+import { categoryLabel } from '../../types'
 import { initials, ordinal } from '../../lib/format'
 
 export function SearchOverlay({ data, onClose }: { data: RankingData; onClose: () => void }) {
@@ -55,7 +55,7 @@ export function SearchOverlay({ data, onClose }: { data: RankingData; onClose: (
                 <span className="min-w-0 flex-1">
                   <span className="block truncate font-medium text-sand-100">{p.name}</span>
                   <span className="block text-xs text-sand-300/50">
-                    {CATEGORY_LABEL[p.category]} · {p.position ? `${ordinal(p.position)} lugar` : 'sem posição'}
+                    {categoryLabel(p.category)} · {p.position ? `${ordinal(p.position)} lugar` : 'sem posição'}
                   </span>
                 </span>
                 <span className="shrink-0 font-display text-sm text-sunset-400">{p.points} pts</span>

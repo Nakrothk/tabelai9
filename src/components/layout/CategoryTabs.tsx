@@ -1,4 +1,3 @@
-import { CATEGORY_LABEL, type Category } from '../../types'
 import { useCategory } from '../../context/CategoryContext'
 
 export function CategoryTabs() {
@@ -16,13 +15,9 @@ export function CategoryTabs() {
               : 'text-sand-300/70 hover:text-sand-200'
           }`}
         >
-          {shortLabel(c)}
+          {c}
         </button>
       ))}
     </div>
   )
-}
-
-function shortLabel(c: Category) {
-  return CATEGORY_LABEL[c].replace('Super ', '')
 }

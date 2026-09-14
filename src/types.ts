@@ -1,6 +1,5 @@
-export type Category = 'C' | 'D' | 'E'
-
-export const CATEGORIES: Category[] = ['E', 'D', 'C']
+/** Código da categoria (ex: "E", "D", "C"), descoberto dinamicamente a partir das abas da planilha. */
+export type Category = string
 
 export interface PlayerStagePoint {
   stageIndex: number
@@ -64,8 +63,6 @@ export interface RankingData {
   categories: Record<Category, CategoryData>
 }
 
-export const CATEGORY_LABEL: Record<Category, string> = {
-  C: 'Super C',
-  D: 'Super D',
-  E: 'Super E',
+export function categoryLabel(c: Category): string {
+  return `Super ${c}`
 }

@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from 'react-router-dom'
 import { ChevronLeft, Trophy, Flame, Gift, CalendarCheck } from 'lucide-react'
 import type { RankingData } from '../types'
-import { CATEGORY_LABEL } from '../types'
+import { categoryLabel } from '../types'
 import { initials, ordinal, positionDelta } from '../lib/format'
 import { DeltaBadge } from '../components/ranking/DeltaBadge'
 import { EvolutionChart } from '../components/player/EvolutionChart'
@@ -38,7 +38,7 @@ export function PlayerPage({ data }: { data: RankingData }) {
         <div>
           <p className="font-display text-2xl font-bold text-sand-100">{player.name}</p>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300/50">
-            {CATEGORY_LABEL[player.category]}
+            {categoryLabel(player.category)}
           </p>
         </div>
 

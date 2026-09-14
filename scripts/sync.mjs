@@ -2,8 +2,10 @@
 /**
  * Sincroniza o ranking Beach Tennis a partir da planilha oficial (Google Sheets, "Super 8 - Fem").
  *
- * Fonte oficial dos dados: dentro de cada aba "Super ( E/D/C )", o bloco de ranking consolidado
- * no final da aba (título "SUPER E/D/C"), que já contém as fórmulas e a pontuação oficial calculada.
+ * As categorias são descobertas automaticamente: qualquer aba chamada "Super ( X )" vira uma
+ * categoria "X" no ranking, sem precisar mexer no código quando surgir uma nova (ex: "Super ( B )").
+ * Fonte oficial dos dados: dentro de cada aba dessas, o bloco de ranking consolidado no final
+ * (título "SUPER X"), que já contém as fórmulas e a pontuação oficial calculada.
  * Os cabeçalhos de semana desse bloco às vezes ficam desatualizados — a data real de cada semana/etapa
  * é obtida à parte, lendo os rótulos "SEMANA N ( data )" no topo da própria aba.
  *
@@ -28,8 +30,8 @@ const ROOT = path.resolve(__dirname, '..')
 const OUT_PATH = path.join(ROOT, 'public', 'data', 'ranking.json')
 const SOURCE_DIR = path.join(ROOT, 'data', 'source')
 
-const CATEGORIES = ['E', 'D', 'C']
-const SHEET_BY_CATEGORY = { E: 'Super ( E )', D: 'Super ( D )', C: 'Super ( C )' }
+// Reconhece abas como "Super ( E )", "Super(B)", etc. — o texto entre parênteses vira o código da categoria.
+const CATEGORY_SHEET_PATTERN = /^super\s*\(\s*([^)]+?)\s*\)$/i
 const MAX_STAGES = 8
 
 // Colunas fixas do bloco de ranking consolidado (1-based). C=jogadores.
@@ -108,16 +110,26 @@ function extractStageDates(sheet) {
   return dates
 }
 
-/** Encontra as linhas de título de cada bloco de categoria dentro da aba RANKING GERAL. */
+/** Encontra as linhas de título ("SUPER X") do bloco de ranking consolidado dentro de uma aba. */
 function findCategoryBlocks(sheet) {
   const blocks = []
   sheet.eachRow((row, rowNumber) => {
     const label = cellVal(row.getCell(NAME_COL))
     if (typeof label !== 'string') return
-    const m = label.trim().match(/^SUPER\s+([CDE])$/i)
+    const m = label.trim().match(/^SUPER\s+([A-Za-zÀ-ÿ0-9]+)$/i)
     if (m) blocks.push({ category: m[1].toUpperCase(), titleRow: rowNumber })
   })
   return blocks
+}
+
+/** Descobre dinamicamente todas as abas de categoria ("Super ( X )") presentes na planilha. */
+function discoverCategorySheets(workbook) {
+  const found = []
+  workbook.eachSheet((sheet) => {
+    const m = sheet.name.trim().match(CATEGORY_SHEET_PATTERN)
+    if (m) found.push({ category: m[1].trim().toUpperCase(), sheet })
+  })
+  return found
 }
 
 function parseCategoryBlock(sheet, block, nextTitleRow, stageDates) {
@@ -313,14 +325,16 @@ async function main() {
   const workbook = new ExcelJS.Workbook()
   await workbook.xlsx.readFile(sourceFile)
 
-  const categories = {}
-  for (const category of CATEGORIES) {
-    const sheet = workbook.getWorksheet(SHEET_BY_CATEGORY[category])
-    if (!sheet) throw new Error(`Aba "${SHEET_BY_CATEGORY[category]}" não encontrada no arquivo.`)
+  const categorySheets = discoverCategorySheets(workbook)
+  if (categorySheets.length === 0) {
+    throw new Error('Nenhuma aba "Super ( X )" encontrada na planilha.')
+  }
 
+  const categories = {}
+  for (const { category, sheet } of categorySheets) {
     const stageDates = extractStageDates(sheet)
     const block = findCategoryBlocks(sheet).find((b) => b.category === category)
-    if (!block) throw new Error(`Bloco "SUPER ${category}" não encontrado na aba "${SHEET_BY_CATEGORY[category]}".`)
+    if (!block) throw new Error(`Bloco "SUPER ${category}" não encontrado na aba "${sheet.name}".`)
 
     const parsed = parseCategoryBlock(sheet, block, undefined, stageDates)
     const highlights = computeHighlights(parsed)
