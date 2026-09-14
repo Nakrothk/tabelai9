@@ -8,11 +8,11 @@ export function TopBar({ onOpenSearch }: { onOpenSearch: () => void }) {
       <div className="mx-auto flex max-w-2xl flex-col gap-3 px-4 pb-3 pt-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2.5">
-            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-sunset-500 to-gold-400 font-display text-base font-bold text-ink-950">
-              S8
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-sunset-500 to-gold-400 p-1.5">
+              <img src="/i9-badge.png" alt="" className="h-full w-full object-contain" />
             </span>
             <div className="leading-tight">
-              <p className="font-display text-lg font-bold tracking-wide text-sand-100">RANKING BT</p>
+              <p className="font-display text-lg font-bold tracking-wide text-sand-100">RANKING SUPER 8 - INOVE</p>
               <p className="-mt-0.5 text-[11px] font-medium uppercase tracking-[0.2em] text-sand-300/50">Super 8 · Feminino</p>
             </div>
           </Link>
