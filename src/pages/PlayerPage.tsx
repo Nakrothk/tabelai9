@@ -1,14 +1,19 @@
+import { useRef, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import { ChevronLeft, Trophy, Flame, Gift, CalendarCheck } from 'lucide-react'
+import { ChevronLeft, Trophy, Flame, Gift, CalendarCheck, Share2 } from 'lucide-react'
 import type { RankingData } from '../types'
 import { categoryLabel } from '../types'
 import { initials, ordinal, positionDelta } from '../lib/format'
 import { DeltaBadge } from '../components/ranking/DeltaBadge'
 import { EvolutionChart } from '../components/player/EvolutionChart'
+import { ShareCard } from '../components/player/ShareCard'
+import { exportNodeAsImage } from '../lib/shareImage'
 
 export function PlayerPage({ data }: { data: RankingData }) {
   const { playerId } = useParams()
   const navigate = useNavigate()
+  const cardRef = useRef<HTMLDivElement>(null)
+  const [exporting, setExporting] = useState(false)
 
   const player = Object.values(data.categories)
     .flatMap((c) => c.players)
@@ -24,6 +29,18 @@ export function PlayerPage({ data }: { data: RankingData }) {
     null
 
   const delta = positionDelta(player.position, player.previousPosition)
+
+  const handleShare = async () => {
+    if (!cardRef.current || exporting) return
+    setExporting(true)
+    try {
+      await exportNodeAsImage(cardRef.current, `${player.id}-super8.png`)
+    } catch (err) {
+      console.error('Falha ao gerar imagem de compartilhamento', err)
+    } finally {
+      setExporting(false)
+    }
+  }
 
   return (
     <div className="flex flex-col gap-7">
@@ -55,7 +72,20 @@ export function PlayerPage({ data }: { data: RankingData }) {
         </div>
         <p className="font-display text-xl font-semibold text-sand-100">{player.points} pontos</p>
         <DeltaBadge delta={delta} />
+
+        <button
+          onClick={handleShare}
+          disabled={exporting}
+          className="mt-1 inline-flex items-center gap-2 rounded-full bg-white/5 px-4 py-2 text-sm font-semibold text-sand-100 transition-colors hover:bg-white/10 disabled:opacity-50"
+        >
+          <Share2 className="h-4 w-4" />
+          {exporting ? 'Gerando imagem...' : 'Compartilhar resultado'}
+        </button>
       </section>
+
+      <div style={{ position: 'fixed', top: 0, left: -99999, pointerEvents: 'none' }} aria-hidden="true">
+        <ShareCard ref={cardRef} player={player} />
+      </div>
 
       <section className="grid grid-cols-2 gap-2.5 sm:grid-cols-4">
         <StatTile icon={Trophy} label="Vitórias" value={player.wins} />
