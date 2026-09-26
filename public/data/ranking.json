@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T14:00:46.861Z",
+  "generatedAt": "2026-09-26T14:04:53.424Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -4589,10 +4589,10 @@
           "id": "c-mariane-salvataggio",
           "name": "Mariane Salvataggio",
           "category": "C",
-          "stagesPlayed": 5,
+          "stagesPlayed": 6,
           "bonusPoints": 65,
           "gamesPoints": 170,
-          "wins": 19,
+          "wins": 21,
           "points": 235,
           "position": 3,
           "previousPosition": 3,
@@ -4644,9 +4644,9 @@
             },
             {
               "stageIndex": 6,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
+              "played": true,
+              "resultado": 18,
+              "vitorias": 2,
               "pontos": 0,
               "cumulativeTotal": 235,
               "position": 3
@@ -5878,6 +5878,74 @@
           ]
         },
         {
+          "id": "c-helo-pugsley",
+          "name": "Helô Pugsley",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 20,
+          "wins": 2,
+          "points": 20,
+          "position": 22,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 4,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 5,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 6,
+              "played": true,
+              "resultado": 22,
+              "vitorias": 2,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 22
+            }
+          ]
+        },
+        {
           "id": "c-martina-hoffrichter",
           "name": "Martina Hoffrichter",
           "category": "C",
@@ -5886,7 +5954,7 @@
           "gamesPoints": 20,
           "wins": 2,
           "points": 20,
-          "position": 22,
+          "position": 23,
           "previousPosition": 21,
           "stages": [
             {
@@ -5941,7 +6009,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 22
+              "position": 23
             }
           ]
         },
@@ -5954,7 +6022,7 @@
           "gamesPoints": 20,
           "wins": 1,
           "points": 20,
-          "position": 23,
+          "position": 24,
           "previousPosition": 22,
           "stages": [
             {
@@ -6009,7 +6077,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 23
+              "position": 24
             }
           ]
         },
@@ -6022,7 +6090,7 @@
           "gamesPoints": 20,
           "wins": 1,
           "points": 20,
-          "position": 24,
+          "position": 25,
           "previousPosition": 23,
           "stages": [
             {
@@ -6077,7 +6145,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 24
+              "position": 25
             }
           ]
         }
@@ -6494,12 +6562,28 @@
               "position": 4
             },
             {
+              "playerId": "c-helo-pugsley",
+              "name": "Helô Pugsley",
+              "resultado": 22,
+              "vitorias": 2,
+              "pontos": 20,
+              "position": 5
+            },
+            {
               "playerId": "c-marissol-romanelli",
               "name": "Marissol Romanelli",
               "resultado": 20,
               "vitorias": 2,
               "pontos": 20,
-              "position": 5
+              "position": 6
+            },
+            {
+              "playerId": "c-mariane-salvataggio",
+              "name": "Mariane Salvataggio",
+              "resultado": 18,
+              "vitorias": 2,
+              "pontos": 0,
+              "position": 7
             }
           ]
         }
