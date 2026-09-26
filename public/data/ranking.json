@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T14:10:34.970Z",
+  "generatedAt": "2026-09-26T14:15:36.761Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -781,9 +781,9 @@
           "category": "E",
           "stagesPlayed": 2,
           "bonusPoints": 15,
-          "gamesPoints": 60,
+          "gamesPoints": 80,
           "wins": 7,
-          "points": 75,
+          "points": 95,
           "position": 11,
           "previousPosition": 14,
           "stages": [
