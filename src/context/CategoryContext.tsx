@@ -13,7 +13,10 @@ const STORAGE_KEY = 'ranking-bt:category'
 
 export function CategoryProvider({ data, children }: { data: RankingData | null; children: ReactNode }) {
   const availableCategories = useMemo(
-    () => Object.keys(data?.categories ?? {}).filter((c) => (data?.categories[c]?.players.length ?? 0) > 0),
+    () =>
+      Object.keys(data?.categories ?? {})
+        .filter((c) => (data?.categories[c]?.players.length ?? 0) > 0)
+        .sort((a, b) => a.localeCompare(b)),
     [data],
   )
 
