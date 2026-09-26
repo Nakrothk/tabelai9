@@ -235,7 +235,7 @@ function parseCategoryBlock(sheet, block, nextTitleRow, stageDates) {
         return { id: p.id, name: p.name, total: bonus + gamesPoints, gamesPoints, wins }
       })
       .filter(Boolean)
-      .sort((a, b) => b.total - a.total || b.gamesPoints - a.gamesPoints || b.wins - a.wins || a.name.localeCompare(b.name))
+      .sort((a, b) => b.total - a.total || b.wins - a.wins || b.gamesPoints - a.gamesPoints || a.name.localeCompare(b.name))
 
     cutpointRankings[stageIndex] = snapshot.map((s, i) => ({ ...s, position: i + 1 }))
   }
