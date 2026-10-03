@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T22:11:03.223Z",
+  "generatedAt": "2026-10-03T22:15:33.776Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -4604,8 +4604,8 @@
           ]
         },
         {
-          "id": "c-mariane-salvataggio",
-          "name": "Mariane Salvataggio",
+          "id": "c-mariane-salvalaggio",
+          "name": "Mariane Salvalaggio",
           "category": "C",
           "stagesPlayed": 6,
           "bonusPoints": 65,
@@ -4758,6 +4758,83 @@
           ]
         },
         {
+          "id": "c-angela-bot",
+          "name": "Ângela Bot",
+          "category": "C",
+          "stagesPlayed": 3,
+          "bonusPoints": 35,
+          "gamesPoints": 140,
+          "wins": 10,
+          "points": 175,
+          "position": 5,
+          "previousPosition": 11,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 4,
+              "played": true,
+              "resultado": 20,
+              "vitorias": 2,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 16
+            },
+            {
+              "stageIndex": 5,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 20
+            },
+            {
+              "stageIndex": 6,
+              "played": true,
+              "resultado": 28,
+              "vitorias": 4,
+              "pontos": 50,
+              "cumulativeTotal": 85,
+              "position": 11
+            },
+            {
+              "stageIndex": 7,
+              "played": true,
+              "resultado": 27,
+              "vitorias": 4,
+              "pontos": 70,
+              "cumulativeTotal": 175,
+              "position": 5
+            }
+          ]
+        },
+        {
           "id": "c-fernanda-souza",
           "name": "Fernanda Souza",
           "category": "C",
@@ -4766,7 +4843,7 @@
           "gamesPoints": 120,
           "wins": 9,
           "points": 135,
-          "position": 5,
+          "position": 6,
           "previousPosition": 5,
           "stages": [
             {
@@ -4830,7 +4907,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 135,
-              "position": 5
+              "position": 6
             }
           ]
         },
@@ -4843,7 +4920,7 @@
           "gamesPoints": 80,
           "wins": 8,
           "points": 115,
-          "position": 6,
+          "position": 7,
           "previousPosition": 6,
           "stages": [
             {
@@ -4907,7 +4984,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 115,
-              "position": 6
+              "position": 7
             }
           ]
         },
@@ -4920,7 +4997,7 @@
           "gamesPoints": 100,
           "wins": 6,
           "points": 100,
-          "position": 7,
+          "position": 8,
           "previousPosition": 7,
           "stages": [
             {
@@ -4984,7 +5061,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 100,
-              "position": 7
+              "position": 8
             }
           ]
         },
@@ -4997,7 +5074,7 @@
           "gamesPoints": 100,
           "wins": 5,
           "points": 100,
-          "position": 8,
+          "position": 9,
           "previousPosition": 8,
           "stages": [
             {
@@ -5061,7 +5138,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 100,
-              "position": 8
+              "position": 9
             }
           ]
         },
@@ -5074,7 +5151,7 @@
           "gamesPoints": 100,
           "wins": 5,
           "points": 100,
-          "position": 9,
+          "position": 10,
           "previousPosition": 9,
           "stages": [
             {
@@ -5138,7 +5215,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 100,
-              "position": 9
+              "position": 10
             }
           ]
         },
@@ -5151,7 +5228,7 @@
           "gamesPoints": 100,
           "wins": 4,
           "points": 100,
-          "position": 10,
+          "position": 11,
           "previousPosition": 10,
           "stages": [
             {
@@ -5215,83 +5292,6 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 100,
-              "position": 10
-            }
-          ]
-        },
-        {
-          "id": "c-angela-bot",
-          "name": "Ângela Bot",
-          "category": "C",
-          "stagesPlayed": 2,
-          "bonusPoints": 15,
-          "gamesPoints": 70,
-          "wins": 6,
-          "points": 85,
-          "position": 11,
-          "previousPosition": 11,
-          "stages": [
-            {
-              "stageIndex": 1,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 0,
-              "position": null
-            },
-            {
-              "stageIndex": 2,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 0,
-              "position": null
-            },
-            {
-              "stageIndex": 3,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 0,
-              "position": null
-            },
-            {
-              "stageIndex": 4,
-              "played": true,
-              "resultado": 20,
-              "vitorias": 2,
-              "pontos": 20,
-              "cumulativeTotal": 20,
-              "position": 16
-            },
-            {
-              "stageIndex": 5,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 20
-            },
-            {
-              "stageIndex": 6,
-              "played": true,
-              "resultado": 28,
-              "vitorias": 4,
-              "pontos": 50,
-              "cumulativeTotal": 85,
-              "position": 11
-            },
-            {
-              "stageIndex": 7,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 85,
               "position": 11
             }
           ]
@@ -5451,6 +5451,83 @@
           ]
         },
         {
+          "id": "c-ana-paula-viezi",
+          "name": "Ana Paula Viezi",
+          "category": "C",
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
+          "gamesPoints": 40,
+          "wins": 6,
+          "points": 55,
+          "position": 14,
+          "previousPosition": 22,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 23,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 5
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 9
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 12
+            },
+            {
+              "stageIndex": 4,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 15
+            },
+            {
+              "stageIndex": 5,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 19
+            },
+            {
+              "stageIndex": 6,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 22
+            },
+            {
+              "stageIndex": 7,
+              "played": true,
+              "resultado": 20,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 55,
+              "position": 14
+            }
+          ]
+        },
+        {
           "id": "c-gabriela-kawamura",
           "name": "Gabriela Kawamura",
           "category": "C",
@@ -5459,7 +5536,7 @@
           "gamesPoints": 40,
           "wins": 4,
           "points": 55,
-          "position": 14,
+          "position": 15,
           "previousPosition": 14,
           "stages": [
             {
@@ -5523,7 +5600,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 55,
-              "position": 14
+              "position": 15
             }
           ]
         },
@@ -5536,7 +5613,7 @@
           "gamesPoints": 50,
           "wins": 5,
           "points": 50,
-          "position": 15,
+          "position": 16,
           "previousPosition": 15,
           "stages": [
             {
@@ -5600,7 +5677,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 50,
-              "position": 15
+              "position": 16
             }
           ]
         },
@@ -5613,7 +5690,7 @@
           "gamesPoints": 50,
           "wins": 4,
           "points": 50,
-          "position": 16,
+          "position": 17,
           "previousPosition": null,
           "stages": [
             {
@@ -5677,7 +5754,7 @@
               "vitorias": 4,
               "pontos": 50,
               "cumulativeTotal": 50,
-              "position": 16
+              "position": 17
             }
           ]
         },
@@ -5690,7 +5767,7 @@
           "gamesPoints": 50,
           "wins": 4,
           "points": 50,
-          "position": 17,
+          "position": 18,
           "previousPosition": 16,
           "stages": [
             {
@@ -5754,7 +5831,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 50,
-              "position": 17
+              "position": 18
             }
           ]
         },
@@ -5767,7 +5844,7 @@
           "gamesPoints": 50,
           "wins": 4,
           "points": 50,
-          "position": 18,
+          "position": 19,
           "previousPosition": 17,
           "stages": [
             {
@@ -5831,7 +5908,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 50,
-              "position": 18
+              "position": 19
             }
           ]
         },
@@ -5844,7 +5921,7 @@
           "gamesPoints": 40,
           "wins": 5,
           "points": 40,
-          "position": 19,
+          "position": 20,
           "previousPosition": null,
           "stages": [
             {
@@ -5908,7 +5985,7 @@
               "vitorias": 5,
               "pontos": 40,
               "cumulativeTotal": 40,
-              "position": 19
+              "position": 20
             }
           ]
         },
@@ -5921,7 +5998,7 @@
           "gamesPoints": 40,
           "wins": 4,
           "points": 40,
-          "position": 20,
+          "position": 21,
           "previousPosition": 18,
           "stages": [
             {
@@ -5985,83 +6062,6 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 40,
-              "position": 20
-            }
-          ]
-        },
-        {
-          "id": "c-ana-paula-viezi",
-          "name": "Ana Paula Viezi",
-          "category": "C",
-          "stagesPlayed": 2,
-          "bonusPoints": 0,
-          "gamesPoints": 20,
-          "wins": 6,
-          "points": 20,
-          "position": 21,
-          "previousPosition": 22,
-          "stages": [
-            {
-              "stageIndex": 1,
-              "played": true,
-              "resultado": 23,
-              "vitorias": 3,
-              "pontos": 20,
-              "cumulativeTotal": 20,
-              "position": 5
-            },
-            {
-              "stageIndex": 2,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 9
-            },
-            {
-              "stageIndex": 3,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 12
-            },
-            {
-              "stageIndex": 4,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 15
-            },
-            {
-              "stageIndex": 5,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 19
-            },
-            {
-              "stageIndex": 6,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 22
-            },
-            {
-              "stageIndex": 7,
-              "played": true,
-              "resultado": 20,
-              "vitorias": 3,
-              "pontos": 0,
-              "cumulativeTotal": 35,
               "position": 21
             }
           ]
@@ -6701,8 +6701,8 @@
               "position": 1
             },
             {
-              "playerId": "c-mariane-salvataggio",
-              "name": "Mariane Salvataggio",
+              "playerId": "c-mariane-salvalaggio",
+              "name": "Mariane Salvalaggio",
               "resultado": 28,
               "vitorias": 5,
               "pontos": 70,
@@ -6791,8 +6791,8 @@
               "position": 3
             },
             {
-              "playerId": "c-mariane-salvataggio",
-              "name": "Mariane Salvataggio",
+              "playerId": "c-mariane-salvalaggio",
+              "name": "Mariane Salvalaggio",
               "resultado": 26,
               "vitorias": 3,
               "pontos": 40,
@@ -6873,8 +6873,8 @@
               "position": 4
             },
             {
-              "playerId": "c-mariane-salvataggio",
-              "name": "Mariane Salvataggio",
+              "playerId": "c-mariane-salvalaggio",
+              "name": "Mariane Salvalaggio",
               "resultado": 24,
               "vitorias": 4,
               "pontos": 20,
@@ -6947,8 +6947,8 @@
               "position": 4
             },
             {
-              "playerId": "c-mariane-salvataggio",
-              "name": "Mariane Salvataggio",
+              "playerId": "c-mariane-salvalaggio",
+              "name": "Mariane Salvalaggio",
               "resultado": 22,
               "vitorias": 4,
               "pontos": 20,
@@ -7021,8 +7021,8 @@
               "position": 4
             },
             {
-              "playerId": "c-mariane-salvataggio",
-              "name": "Mariane Salvataggio",
+              "playerId": "c-mariane-salvalaggio",
+              "name": "Mariane Salvalaggio",
               "resultado": 23,
               "vitorias": 3,
               "pontos": 20,
@@ -7119,8 +7119,8 @@
               "position": 7
             },
             {
-              "playerId": "c-mariane-salvataggio",
-              "name": "Mariane Salvataggio",
+              "playerId": "c-mariane-salvalaggio",
+              "name": "Mariane Salvalaggio",
               "resultado": 18,
               "vitorias": 2,
               "pontos": 20,
@@ -7145,12 +7145,20 @@
               "position": 1
             },
             {
+              "playerId": "c-angela-bot",
+              "name": "Ângela Bot",
+              "resultado": 27,
+              "vitorias": 4,
+              "pontos": 70,
+              "position": 2
+            },
+            {
               "playerId": "c-cintia-claudino",
               "name": "Cintia Claudino",
               "resultado": 26,
               "vitorias": 4,
               "pontos": 50,
-              "position": 2
+              "position": 3
             },
             {
               "playerId": "c-paula-russo",
@@ -7158,7 +7166,7 @@
               "resultado": 25,
               "vitorias": 5,
               "pontos": 40,
-              "position": 3
+              "position": 4
             },
             {
               "playerId": "c-manu-portas",
@@ -7166,7 +7174,7 @@
               "resultado": 24,
               "vitorias": 3,
               "pontos": 20,
-              "position": 4
+              "position": 5
             },
             {
               "playerId": "c-gabriela-laburu",
@@ -7174,15 +7182,15 @@
               "resultado": 24,
               "vitorias": 2,
               "pontos": 20,
-              "position": 5
+              "position": 6
             },
             {
               "playerId": "c-ana-paula-viezi",
               "name": "Ana Paula Viezi",
               "resultado": 20,
               "vitorias": 3,
-              "pontos": 0,
-              "position": 6
+              "pontos": 20,
+              "position": 7
             }
           ]
         }
