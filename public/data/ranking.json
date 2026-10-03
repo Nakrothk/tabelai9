@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T22:10:33.613Z",
+  "generatedAt": "2026-10-03T22:11:03.223Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -4532,9 +4532,9 @@
           "category": "C",
           "stagesPlayed": 6,
           "bonusPoints": 65,
-          "gamesPoints": 200,
-          "wins": 17,
-          "points": 265,
+          "gamesPoints": 220,
+          "wins": 19,
+          "points": 285,
           "position": 2,
           "previousPosition": 2,
           "stages": [
@@ -4596,9 +4596,9 @@
               "stageIndex": 7,
               "played": true,
               "resultado": 24,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 265,
+              "vitorias": 2,
+              "pontos": 20,
+              "cumulativeTotal": 285,
               "position": 2
             }
           ]
@@ -5990,6 +5990,83 @@
           ]
         },
         {
+          "id": "c-ana-paula-viezi",
+          "name": "Ana Paula Viezi",
+          "category": "C",
+          "stagesPlayed": 2,
+          "bonusPoints": 0,
+          "gamesPoints": 20,
+          "wins": 6,
+          "points": 20,
+          "position": 21,
+          "previousPosition": 22,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 23,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 5
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 9
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 12
+            },
+            {
+              "stageIndex": 4,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 15
+            },
+            {
+              "stageIndex": 5,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 19
+            },
+            {
+              "stageIndex": 6,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 22
+            },
+            {
+              "stageIndex": 7,
+              "played": true,
+              "resultado": 20,
+              "vitorias": 3,
+              "pontos": 0,
+              "cumulativeTotal": 35,
+              "position": 21
+            }
+          ]
+        },
+        {
           "id": "c-ana-clara",
           "name": "Ana Clara",
           "category": "C",
@@ -5998,7 +6075,7 @@
           "gamesPoints": 20,
           "wins": 4,
           "points": 20,
-          "position": 21,
+          "position": 22,
           "previousPosition": 19,
           "stages": [
             {
@@ -6062,7 +6139,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 21
+              "position": 22
             }
           ]
         },
@@ -6075,7 +6152,7 @@
           "gamesPoints": 20,
           "wins": 4,
           "points": 20,
-          "position": 22,
+          "position": 23,
           "previousPosition": 20,
           "stages": [
             {
@@ -6139,7 +6216,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 22
+              "position": 23
             }
           ]
         },
@@ -6152,7 +6229,7 @@
           "gamesPoints": 20,
           "wins": 3,
           "points": 20,
-          "position": 23,
+          "position": 24,
           "previousPosition": 21,
           "stages": [
             {
@@ -6208,83 +6285,6 @@
               "pontos": 0,
               "cumulativeTotal": 20,
               "position": 21
-            },
-            {
-              "stageIndex": 7,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 23
-            }
-          ]
-        },
-        {
-          "id": "c-ana-paula-viezi",
-          "name": "Ana Paula Viezi",
-          "category": "C",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 20,
-          "wins": 3,
-          "points": 20,
-          "position": 24,
-          "previousPosition": 22,
-          "stages": [
-            {
-              "stageIndex": 1,
-              "played": true,
-              "resultado": 23,
-              "vitorias": 3,
-              "pontos": 20,
-              "cumulativeTotal": 20,
-              "position": 5
-            },
-            {
-              "stageIndex": 2,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 9
-            },
-            {
-              "stageIndex": 3,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 12
-            },
-            {
-              "stageIndex": 4,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 15
-            },
-            {
-              "stageIndex": 5,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 19
-            },
-            {
-              "stageIndex": 6,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 20,
-              "position": 22
             },
             {
               "stageIndex": 7,
@@ -7172,15 +7172,23 @@
               "playerId": "c-gabriela-laburu",
               "name": "Gabriela Laburu",
               "resultado": 24,
-              "vitorias": 0,
-              "pontos": 0,
+              "vitorias": 2,
+              "pontos": 20,
               "position": 5
+            },
+            {
+              "playerId": "c-ana-paula-viezi",
+              "name": "Ana Paula Viezi",
+              "resultado": 20,
+              "vitorias": 3,
+              "pontos": 0,
+              "position": 6
             }
           ]
         }
       ],
       "leaderId": "c-cris-schmidt",
-      "risingPlayerId": null,
+      "risingPlayerId": "c-ana-paula-viezi",
       "lastStageId": "C7"
     }
   }
