@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T22:05:32.447Z",
+  "generatedAt": "2026-10-03T22:10:33.613Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -4453,11 +4453,11 @@
           "id": "c-cris-schmidt",
           "name": "Cris Schmidt",
           "category": "C",
-          "stagesPlayed": 5,
+          "stagesPlayed": 6,
           "bonusPoints": 65,
-          "gamesPoints": 280,
-          "wins": 22,
-          "points": 345,
+          "gamesPoints": 380,
+          "wins": 28,
+          "points": 445,
           "position": 1,
           "previousPosition": 1,
           "stages": [
@@ -4517,11 +4517,11 @@
             },
             {
               "stageIndex": 7,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 345,
+              "played": true,
+              "resultado": 33,
+              "vitorias": 6,
+              "pontos": 100,
+              "cumulativeTotal": 445,
               "position": 1
             }
           ]
@@ -4530,7 +4530,7 @@
           "id": "c-gabriela-laburu",
           "name": "Gabriela Laburu",
           "category": "C",
-          "stagesPlayed": 5,
+          "stagesPlayed": 6,
           "bonusPoints": 65,
           "gamesPoints": 200,
           "wins": 17,
@@ -4594,8 +4594,8 @@
             },
             {
               "stageIndex": 7,
-              "played": false,
-              "resultado": 0,
+              "played": true,
+              "resultado": 24,
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 265,
@@ -4844,7 +4844,7 @@
           "wins": 8,
           "points": 115,
           "position": 6,
-          "previousPosition": 11,
+          "previousPosition": 6,
           "stages": [
             {
               "stageIndex": 1,
@@ -4921,7 +4921,7 @@
           "wins": 6,
           "points": 100,
           "position": 7,
-          "previousPosition": 6,
+          "previousPosition": 7,
           "stages": [
             {
               "stageIndex": 1,
@@ -4998,7 +4998,7 @@
           "wins": 5,
           "points": 100,
           "position": 8,
-          "previousPosition": 7,
+          "previousPosition": 8,
           "stages": [
             {
               "stageIndex": 1,
@@ -5075,7 +5075,7 @@
           "wins": 5,
           "points": 100,
           "position": 9,
-          "previousPosition": 8,
+          "previousPosition": 9,
           "stages": [
             {
               "stageIndex": 1,
@@ -5152,7 +5152,7 @@
           "wins": 4,
           "points": 100,
           "position": 10,
-          "previousPosition": null,
+          "previousPosition": 10,
           "stages": [
             {
               "stageIndex": 1,
@@ -5229,7 +5229,7 @@
           "wins": 6,
           "points": 85,
           "position": 11,
-          "previousPosition": 20,
+          "previousPosition": 11,
           "stages": [
             {
               "stageIndex": 1,
@@ -5306,7 +5306,7 @@
           "wins": 6,
           "points": 75,
           "position": 12,
-          "previousPosition": 16,
+          "previousPosition": 12,
           "stages": [
             {
               "stageIndex": 1,
@@ -5383,7 +5383,7 @@
           "wins": 5,
           "points": 75,
           "position": 13,
-          "previousPosition": 9,
+          "previousPosition": 13,
           "stages": [
             {
               "stageIndex": 1,
@@ -5460,7 +5460,7 @@
           "wins": 4,
           "points": 55,
           "position": 14,
-          "previousPosition": 10,
+          "previousPosition": 14,
           "stages": [
             {
               "stageIndex": 1,
@@ -5537,7 +5537,7 @@
           "wins": 5,
           "points": 50,
           "position": 15,
-          "previousPosition": 12,
+          "previousPosition": 15,
           "stages": [
             {
               "stageIndex": 1,
@@ -5605,6 +5605,83 @@
           ]
         },
         {
+          "id": "c-cintia-claudino",
+          "name": "Cintia Claudino",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 50,
+          "wins": 4,
+          "points": 50,
+          "position": 16,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 4,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 5,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 6,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 7,
+              "played": true,
+              "resultado": 26,
+              "vitorias": 4,
+              "pontos": 50,
+              "cumulativeTotal": 50,
+              "position": 16
+            }
+          ]
+        },
+        {
           "id": "c-giovana-vida",
           "name": "Giovana Vida",
           "category": "C",
@@ -5613,8 +5690,8 @@
           "gamesPoints": 50,
           "wins": 4,
           "points": 50,
-          "position": 16,
-          "previousPosition": 13,
+          "position": 17,
+          "previousPosition": 16,
           "stages": [
             {
               "stageIndex": 1,
@@ -5677,7 +5754,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 50,
-              "position": 16
+              "position": 17
             }
           ]
         },
@@ -5690,8 +5767,8 @@
           "gamesPoints": 50,
           "wins": 4,
           "points": 50,
-          "position": 17,
-          "previousPosition": 14,
+          "position": 18,
+          "previousPosition": 17,
           "stages": [
             {
               "stageIndex": 1,
@@ -5754,7 +5831,84 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 50,
-              "position": 17
+              "position": 18
+            }
+          ]
+        },
+        {
+          "id": "c-paula-russo",
+          "name": "Paula Russo",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 40,
+          "wins": 5,
+          "points": 40,
+          "position": 19,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 4,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 5,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 6,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 7,
+              "played": true,
+              "resultado": 25,
+              "vitorias": 5,
+              "pontos": 40,
+              "cumulativeTotal": 40,
+              "position": 19
             }
           ]
         },
@@ -5767,8 +5921,8 @@
           "gamesPoints": 40,
           "wins": 4,
           "points": 40,
-          "position": 18,
-          "previousPosition": 15,
+          "position": 20,
+          "previousPosition": 18,
           "stages": [
             {
               "stageIndex": 1,
@@ -5831,7 +5985,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 40,
-              "position": 18
+              "position": 20
             }
           ]
         },
@@ -5844,8 +5998,8 @@
           "gamesPoints": 20,
           "wins": 4,
           "points": 20,
-          "position": 19,
-          "previousPosition": 17,
+          "position": 21,
+          "previousPosition": 19,
           "stages": [
             {
               "stageIndex": 1,
@@ -5908,7 +6062,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 19
+              "position": 21
             }
           ]
         },
@@ -5921,8 +6075,8 @@
           "gamesPoints": 20,
           "wins": 4,
           "points": 20,
-          "position": 20,
-          "previousPosition": null,
+          "position": 22,
+          "previousPosition": 20,
           "stages": [
             {
               "stageIndex": 1,
@@ -5985,7 +6139,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 20
+              "position": 22
             }
           ]
         },
@@ -5998,8 +6152,8 @@
           "gamesPoints": 20,
           "wins": 3,
           "points": 20,
-          "position": 21,
-          "previousPosition": 18,
+          "position": 23,
+          "previousPosition": 21,
           "stages": [
             {
               "stageIndex": 1,
@@ -6062,7 +6216,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 21
+              "position": 23
             }
           ]
         },
@@ -6075,8 +6229,8 @@
           "gamesPoints": 20,
           "wins": 3,
           "points": 20,
-          "position": 22,
-          "previousPosition": 19,
+          "position": 24,
+          "previousPosition": 22,
           "stages": [
             {
               "stageIndex": 1,
@@ -6139,7 +6293,84 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 22
+              "position": 24
+            }
+          ]
+        },
+        {
+          "id": "c-manu-portas",
+          "name": "Manu Portas",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 20,
+          "wins": 3,
+          "points": 20,
+          "position": 25,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 4,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 5,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 6,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 7,
+              "played": true,
+              "resultado": 24,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 25
             }
           ]
         },
@@ -6152,8 +6383,8 @@
           "gamesPoints": 20,
           "wins": 2,
           "points": 20,
-          "position": 23,
-          "previousPosition": null,
+          "position": 26,
+          "previousPosition": 23,
           "stages": [
             {
               "stageIndex": 1,
@@ -6216,7 +6447,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 23
+              "position": 26
             }
           ]
         },
@@ -6229,8 +6460,8 @@
           "gamesPoints": 20,
           "wins": 2,
           "points": 20,
-          "position": 24,
-          "previousPosition": 21,
+          "position": 27,
+          "previousPosition": 24,
           "stages": [
             {
               "stageIndex": 1,
@@ -6293,7 +6524,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 24
+              "position": 27
             }
           ]
         },
@@ -6306,8 +6537,8 @@
           "gamesPoints": 20,
           "wins": 1,
           "points": 20,
-          "position": 25,
-          "previousPosition": 22,
+          "position": 28,
+          "previousPosition": 25,
           "stages": [
             {
               "stageIndex": 1,
@@ -6370,7 +6601,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 25
+              "position": 28
             }
           ]
         },
@@ -6383,8 +6614,8 @@
           "gamesPoints": 20,
           "wins": 1,
           "points": 20,
-          "position": 26,
-          "previousPosition": 23,
+          "position": 29,
+          "previousPosition": 26,
           "stages": [
             {
               "stageIndex": 1,
@@ -6447,7 +6678,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 26
+              "position": 29
             }
           ]
         }
@@ -6903,13 +7134,54 @@
           "index": 7,
           "label": "Etapa 7",
           "date": "02/10",
-          "hasData": false,
-          "ranking": []
+          "hasData": true,
+          "ranking": [
+            {
+              "playerId": "c-cris-schmidt",
+              "name": "Cris Schmidt",
+              "resultado": 33,
+              "vitorias": 6,
+              "pontos": 100,
+              "position": 1
+            },
+            {
+              "playerId": "c-cintia-claudino",
+              "name": "Cintia Claudino",
+              "resultado": 26,
+              "vitorias": 4,
+              "pontos": 50,
+              "position": 2
+            },
+            {
+              "playerId": "c-paula-russo",
+              "name": "Paula Russo",
+              "resultado": 25,
+              "vitorias": 5,
+              "pontos": 40,
+              "position": 3
+            },
+            {
+              "playerId": "c-manu-portas",
+              "name": "Manu Portas",
+              "resultado": 24,
+              "vitorias": 3,
+              "pontos": 20,
+              "position": 4
+            },
+            {
+              "playerId": "c-gabriela-laburu",
+              "name": "Gabriela Laburu",
+              "resultado": 24,
+              "vitorias": 0,
+              "pontos": 0,
+              "position": 5
+            }
+          ]
         }
       ],
       "leaderId": "c-cris-schmidt",
-      "risingPlayerId": "c-angela-bot",
-      "lastStageId": "C6"
+      "risingPlayerId": null,
+      "lastStageId": "C7"
     }
   }
 }
