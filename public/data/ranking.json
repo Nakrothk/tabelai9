@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T18:10:34.729Z",
+  "generatedAt": "2026-10-26T18:15:35.150Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -1629,7 +1629,7 @@
           "category": "E",
           "index": 1,
           "label": "Etapa 1",
-          "date": "08/08",
+          "date": null,
           "hasData": true,
           "ranking": [
             {
