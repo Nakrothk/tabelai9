@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T01:20:33.863Z",
+  "generatedAt": "2026-10-27T01:25:25.711Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -22,6 +22,98 @@
       "category": "C",
       "players": [
         {
+          "id": "c-vivian-coelho",
+          "name": "Vivian Coelho",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 100,
+          "wins": 6,
+          "points": 100,
+          "position": 1,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 35,
+              "vitorias": 6,
+              "pontos": 100,
+              "cumulativeTotal": 100,
+              "position": 1
+            }
+          ]
+        },
+        {
+          "id": "c-cintia-claudino",
+          "name": "Cíntia Claudino",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 70,
+          "wins": 5,
+          "points": 70,
+          "position": 2,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 31,
+              "vitorias": 5,
+              "pontos": 70,
+              "cumulativeTotal": 70,
+              "position": 2
+            }
+          ]
+        },
+        {
+          "id": "c-gabriela-sivek",
+          "name": "Gabriela Sivek",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 50,
+          "wins": 4,
+          "points": 50,
+          "position": 3,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 26,
+              "vitorias": 4,
+              "pontos": 50,
+              "cumulativeTotal": 50,
+              "position": 3
+            }
+          ]
+        },
+        {
+          "id": "c-ale-nunes",
+          "name": "Alê Nunes",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 40,
+          "wins": 3,
+          "points": 40,
+          "position": 4,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 26,
+              "vitorias": 3,
+              "pontos": 40,
+              "cumulativeTotal": 40,
+              "position": 4
+            }
+          ]
+        },
+        {
           "id": "c-mari-salvalaggio",
           "name": "Mari Salvalaggio",
           "category": "C",
@@ -30,7 +122,7 @@
           "gamesPoints": 20,
           "wins": 5,
           "points": 20,
-          "position": 1,
+          "position": 5,
           "previousPosition": null,
           "stages": [
             {
@@ -40,7 +132,7 @@
               "vitorias": 5,
               "pontos": 20,
               "cumulativeTotal": 20,
-              "position": 1
+              "position": 5
             }
           ]
         },
@@ -53,7 +145,7 @@
           "gamesPoints": 20,
           "wins": 3,
           "points": 20,
-          "position": 2,
+          "position": 6,
           "previousPosition": null,
           "stages": [
             {
@@ -63,7 +155,7 @@
               "vitorias": 3,
               "pontos": 20,
               "cumulativeTotal": 20,
-              "position": 2
+              "position": 6
             }
           ]
         },
@@ -76,7 +168,7 @@
           "gamesPoints": 20,
           "wins": 2,
           "points": 20,
-          "position": 3,
+          "position": 7,
           "previousPosition": null,
           "stages": [
             {
@@ -86,7 +178,7 @@
               "vitorias": 2,
               "pontos": 20,
               "cumulativeTotal": 20,
-              "position": 3
+              "position": 7
             }
           ]
         },
@@ -99,7 +191,7 @@
           "gamesPoints": 20,
           "wins": 0,
           "points": 20,
-          "position": 4,
+          "position": 8,
           "previousPosition": null,
           "stages": [
             {
@@ -109,7 +201,7 @@
               "vitorias": 0,
               "pontos": 20,
               "cumulativeTotal": 20,
-              "position": 4
+              "position": 8
             }
           ]
         }
@@ -124,12 +216,44 @@
           "hasData": true,
           "ranking": [
             {
+              "playerId": "c-vivian-coelho",
+              "name": "Vivian Coelho",
+              "resultado": 35,
+              "vitorias": 6,
+              "pontos": 100,
+              "position": 1
+            },
+            {
+              "playerId": "c-cintia-claudino",
+              "name": "Cíntia Claudino",
+              "resultado": 31,
+              "vitorias": 5,
+              "pontos": 70,
+              "position": 2
+            },
+            {
+              "playerId": "c-gabriela-sivek",
+              "name": "Gabriela Sivek",
+              "resultado": 26,
+              "vitorias": 4,
+              "pontos": 50,
+              "position": 3
+            },
+            {
+              "playerId": "c-ale-nunes",
+              "name": "Alê Nunes",
+              "resultado": 26,
+              "vitorias": 3,
+              "pontos": 40,
+              "position": 4
+            },
+            {
               "playerId": "c-mari-salvalaggio",
               "name": "Mari Salvalaggio",
               "resultado": 22,
               "vitorias": 5,
               "pontos": 20,
-              "position": 1
+              "position": 5
             },
             {
               "playerId": "c-adclis-souza",
@@ -137,7 +261,7 @@
               "resultado": 20,
               "vitorias": 2,
               "pontos": 20,
-              "position": 2
+              "position": 6
             },
             {
               "playerId": "c-ana-goedert",
@@ -145,7 +269,7 @@
               "resultado": 19,
               "vitorias": 3,
               "pontos": 20,
-              "position": 3
+              "position": 7
             },
             {
               "playerId": "c-tati-talamine",
@@ -153,12 +277,12 @@
               "resultado": 17,
               "vitorias": 0,
               "pontos": 20,
-              "position": 4
+              "position": 8
             }
           ]
         }
       ],
-      "leaderId": "c-mari-salvalaggio",
+      "leaderId": "c-vivian-coelho",
       "risingPlayerId": null,
       "lastStageId": "C1"
     }
