@@ -1,11 +1,21 @@
 {
-  "generatedAt": "2026-11-05T18:40:31.595Z",
+  "generatedAt": "2026-11-05T18:45:31.382Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
       "category": "E",
       "players": [],
-      "stages": [],
+      "stages": [
+        {
+          "id": "E1",
+          "category": "E",
+          "index": 1,
+          "label": "Etapa 1",
+          "date": "07/11",
+          "hasData": false,
+          "ranking": []
+        }
+      ],
       "leaderId": null,
       "risingPlayerId": null,
       "lastStageId": null
