@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T18:45:31.382Z",
+  "generatedAt": "2026-11-05T18:50:31.132Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -23,7 +23,17 @@
     "D": {
       "category": "D",
       "players": [],
-      "stages": [],
+      "stages": [
+        {
+          "id": "D1",
+          "category": "D",
+          "index": 1,
+          "label": "Etapa 1",
+          "date": "06/11",
+          "hasData": false,
+          "ranking": []
+        }
+      ],
       "leaderId": null,
       "risingPlayerId": null,
       "lastStageId": null
@@ -51,6 +61,15 @@
               "pontos": 100,
               "cumulativeTotal": 100,
               "position": 1
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 100,
+              "position": 1
             }
           ]
         },
@@ -72,6 +91,15 @@
               "resultado": 31,
               "vitorias": 5,
               "pontos": 70,
+              "cumulativeTotal": 70,
+              "position": 2
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
               "cumulativeTotal": 70,
               "position": 2
             }
@@ -97,6 +125,15 @@
               "pontos": 50,
               "cumulativeTotal": 50,
               "position": 3
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 50,
+              "position": 3
             }
           ]
         },
@@ -118,6 +155,15 @@
               "resultado": 26,
               "vitorias": 3,
               "pontos": 40,
+              "cumulativeTotal": 40,
+              "position": 4
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
               "cumulativeTotal": 40,
               "position": 4
             }
@@ -143,6 +189,15 @@
               "pontos": 20,
               "cumulativeTotal": 20,
               "position": 5
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 5
             }
           ]
         },
@@ -164,6 +219,15 @@
               "resultado": 19,
               "vitorias": 3,
               "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 6
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
               "cumulativeTotal": 20,
               "position": 6
             }
@@ -189,6 +253,15 @@
               "pontos": 20,
               "cumulativeTotal": 20,
               "position": 7
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 7
             }
           ]
         },
@@ -210,6 +283,15 @@
               "resultado": 17,
               "vitorias": 0,
               "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 8
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
               "cumulativeTotal": 20,
               "position": 8
             }
@@ -290,6 +372,15 @@
               "position": 8
             }
           ]
+        },
+        {
+          "id": "C2",
+          "category": "C",
+          "index": 2,
+          "label": "Etapa 2",
+          "date": "09/11",
+          "hasData": false,
+          "ranking": []
         }
       ],
       "leaderId": "c-vivian-coelho",
