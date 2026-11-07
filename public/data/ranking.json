@@ -1,10 +1,195 @@
 {
-  "generatedAt": "2026-11-07T20:35:29.217Z",
+  "generatedAt": "2026-11-07T20:40:30.694Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
       "category": "E",
-      "players": [],
+      "players": [
+        {
+          "id": "e-isadora-freitas",
+          "name": "Isadora Freitas",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 100,
+          "wins": 3,
+          "points": 100,
+          "position": 1,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 17,
+              "vitorias": 3,
+              "pontos": 100,
+              "cumulativeTotal": 100,
+              "position": 1
+            }
+          ]
+        },
+        {
+          "id": "e-regina-kuradomi",
+          "name": "Regina Kuradomi",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 70,
+          "wins": 2,
+          "points": 70,
+          "position": 2,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 17,
+              "vitorias": 2,
+              "pontos": 70,
+              "cumulativeTotal": 70,
+              "position": 2
+            }
+          ]
+        },
+        {
+          "id": "e-monica-flenik",
+          "name": "Mônica Flenik",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 50,
+          "wins": 4,
+          "points": 50,
+          "position": 3,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 16,
+              "vitorias": 4,
+              "pontos": 50,
+              "cumulativeTotal": 50,
+              "position": 3
+            }
+          ]
+        },
+        {
+          "id": "e-bruna-vendruscolo",
+          "name": "Bruna Vendruscolo",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 40,
+          "wins": 2,
+          "points": 40,
+          "position": 4,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 14,
+              "vitorias": 2,
+              "pontos": 40,
+              "cumulativeTotal": 40,
+              "position": 4
+            }
+          ]
+        },
+        {
+          "id": "e-marina-perez",
+          "name": "Marina Perez",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 20,
+          "wins": 3,
+          "points": 20,
+          "position": 5,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 13,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 5
+            }
+          ]
+        },
+        {
+          "id": "e-rafa-bedin",
+          "name": "Rafa Bedin",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 20,
+          "wins": 1,
+          "points": 20,
+          "position": 6,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 12,
+              "vitorias": 1,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 6
+            }
+          ]
+        },
+        {
+          "id": "e-fabi-alvez",
+          "name": "Fabi Alvez",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 20,
+          "wins": 0,
+          "points": 20,
+          "position": 7,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 9,
+              "vitorias": 0,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 7
+            }
+          ]
+        },
+        {
+          "id": "e-paula-fukishima",
+          "name": "Paula Fukishima",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 20,
+          "wins": 0,
+          "points": 20,
+          "position": 8,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 8
+            }
+          ]
+        }
+      ],
       "stages": [
         {
           "id": "E1",
@@ -12,13 +197,78 @@
           "index": 1,
           "label": "Etapa 1",
           "date": "07/11",
-          "hasData": false,
-          "ranking": []
+          "hasData": true,
+          "ranking": [
+            {
+              "playerId": "e-isadora-freitas",
+              "name": "Isadora Freitas",
+              "resultado": 17,
+              "vitorias": 3,
+              "pontos": 100,
+              "position": 1
+            },
+            {
+              "playerId": "e-regina-kuradomi",
+              "name": "Regina Kuradomi",
+              "resultado": 17,
+              "vitorias": 2,
+              "pontos": 70,
+              "position": 2
+            },
+            {
+              "playerId": "e-monica-flenik",
+              "name": "Mônica Flenik",
+              "resultado": 16,
+              "vitorias": 4,
+              "pontos": 50,
+              "position": 3
+            },
+            {
+              "playerId": "e-bruna-vendruscolo",
+              "name": "Bruna Vendruscolo",
+              "resultado": 14,
+              "vitorias": 2,
+              "pontos": 40,
+              "position": 4
+            },
+            {
+              "playerId": "e-marina-perez",
+              "name": "Marina Perez",
+              "resultado": 13,
+              "vitorias": 3,
+              "pontos": 20,
+              "position": 5
+            },
+            {
+              "playerId": "e-rafa-bedin",
+              "name": "Rafa Bedin",
+              "resultado": 12,
+              "vitorias": 1,
+              "pontos": 20,
+              "position": 6
+            },
+            {
+              "playerId": "e-fabi-alvez",
+              "name": "Fabi Alvez",
+              "resultado": 9,
+              "vitorias": 0,
+              "pontos": 20,
+              "position": 7
+            },
+            {
+              "playerId": "e-paula-fukishima",
+              "name": "Paula Fukishima",
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 20,
+              "position": 8
+            }
+          ]
         }
       ],
-      "leaderId": null,
+      "leaderId": "e-isadora-freitas",
       "risingPlayerId": null,
-      "lastStageId": null
+      "lastStageId": "E1"
     },
     "D": {
       "category": "D",
