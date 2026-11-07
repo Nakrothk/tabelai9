@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T18:00:36.262Z",
+  "generatedAt": "2026-11-07T18:05:26.354Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -22,7 +22,54 @@
     },
     "D": {
       "category": "D",
-      "players": [],
+      "players": [
+        {
+          "id": "d-monique-chalupe",
+          "name": "Monique Chalupe",
+          "category": "D",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 70,
+          "wins": 5,
+          "points": 70,
+          "position": 1,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 29,
+              "vitorias": 5,
+              "pontos": 70,
+              "cumulativeTotal": 70,
+              "position": 1
+            }
+          ]
+        },
+        {
+          "id": "d-vanessa-perez",
+          "name": "Vanessa Perez",
+          "category": "D",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 40,
+          "wins": 3,
+          "points": 40,
+          "position": 2,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 24,
+              "vitorias": 3,
+              "pontos": 40,
+              "cumulativeTotal": 40,
+              "position": 2
+            }
+          ]
+        }
+      ],
       "stages": [
         {
           "id": "D1",
@@ -30,13 +77,30 @@
           "index": 1,
           "label": "Etapa 1",
           "date": "06/11",
-          "hasData": false,
-          "ranking": []
+          "hasData": true,
+          "ranking": [
+            {
+              "playerId": "d-monique-chalupe",
+              "name": "Monique Chalupe",
+              "resultado": 29,
+              "vitorias": 5,
+              "pontos": 70,
+              "position": 1
+            },
+            {
+              "playerId": "d-vanessa-perez",
+              "name": "Vanessa Perez",
+              "resultado": 24,
+              "vitorias": 3,
+              "pontos": 40,
+              "position": 2
+            }
+          ]
         }
       ],
-      "leaderId": null,
+      "leaderId": "d-monique-chalupe",
       "risingPlayerId": null,
-      "lastStageId": null
+      "lastStageId": "D1"
     },
     "C": {
       "category": "C",
