@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T20:45:30.465Z",
+  "generatedAt": "2026-11-07T20:50:30.098Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -293,6 +293,15 @@
               "pontos": 100,
               "cumulativeTotal": 100,
               "position": 1
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 100,
+              "position": 1
             }
           ]
         },
@@ -314,6 +323,15 @@
               "resultado": 29,
               "vitorias": 5,
               "pontos": 70,
+              "cumulativeTotal": 70,
+              "position": 2
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
               "cumulativeTotal": 70,
               "position": 2
             }
@@ -339,6 +357,15 @@
               "pontos": 50,
               "cumulativeTotal": 50,
               "position": 3
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 50,
+              "position": 3
             }
           ]
         },
@@ -360,6 +387,15 @@
               "resultado": 24,
               "vitorias": 3,
               "pontos": 40,
+              "cumulativeTotal": 40,
+              "position": 4
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
               "cumulativeTotal": 40,
               "position": 4
             }
@@ -385,6 +421,15 @@
               "pontos": 20,
               "cumulativeTotal": 20,
               "position": 5
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 5
             }
           ]
         },
@@ -406,6 +451,15 @@
               "resultado": 24,
               "vitorias": 3,
               "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 6
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
               "cumulativeTotal": 20,
               "position": 6
             }
@@ -431,6 +485,15 @@
               "pontos": 20,
               "cumulativeTotal": 20,
               "position": 7
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 7
             }
           ]
         },
@@ -452,6 +515,15 @@
               "resultado": 18,
               "vitorias": 1,
               "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 8
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
               "cumulativeTotal": 20,
               "position": 8
             }
@@ -532,6 +604,15 @@
               "position": 8
             }
           ]
+        },
+        {
+          "id": "D2",
+          "category": "D",
+          "index": 2,
+          "label": "Etapa 2",
+          "date": "13/11",
+          "hasData": false,
+          "ranking": []
         }
       ],
       "leaderId": "d-jacqueline-saldanha",
