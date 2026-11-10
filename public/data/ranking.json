@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T01:15:26.982Z",
+  "generatedAt": "2026-11-10T01:20:30.515Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -627,10 +627,10 @@
           "name": "Cíntia Claudino",
           "category": "C",
           "stagesPlayed": 2,
-          "bonusPoints": 0,
+          "bonusPoints": 15,
           "gamesPoints": 120,
           "wins": 9,
-          "points": 120,
+          "points": 135,
           "position": 1,
           "previousPosition": 2,
           "stages": [
@@ -655,6 +655,38 @@
           ]
         },
         {
+          "id": "c-isabela-marteleto",
+          "name": "Isabela Marteleto",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 15,
+          "gamesPoints": 100,
+          "wins": 7,
+          "points": 115,
+          "position": 2,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 34,
+              "vitorias": 7,
+              "pontos": 100,
+              "cumulativeTotal": 100,
+              "position": 2
+            }
+          ]
+        },
+        {
           "id": "c-vivian-coelho",
           "name": "Vivian Coelho",
           "category": "C",
@@ -663,7 +695,7 @@
           "gamesPoints": 100,
           "wins": 6,
           "points": 100,
-          "position": 2,
+          "position": 3,
           "previousPosition": 1,
           "stages": [
             {
@@ -682,7 +714,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 100,
-              "position": 2
+              "position": 3
             }
           ]
         },
@@ -691,11 +723,11 @@
           "name": "Alê Nunes",
           "category": "C",
           "stagesPlayed": 2,
-          "bonusPoints": 0,
+          "bonusPoints": 15,
           "gamesPoints": 60,
           "wins": 6,
-          "points": 60,
-          "position": 3,
+          "points": 75,
+          "position": 4,
           "previousPosition": 4,
           "stages": [
             {
@@ -714,7 +746,39 @@
               "vitorias": 3,
               "pontos": 20,
               "cumulativeTotal": 75,
-              "position": 3
+              "position": 4
+            }
+          ]
+        },
+        {
+          "id": "c-monica-beltrame",
+          "name": "Mônica Beltrame",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 70,
+          "wins": 2,
+          "points": 70,
+          "position": 5,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 31,
+              "vitorias": 2,
+              "pontos": 70,
+              "cumulativeTotal": 70,
+              "position": 5
             }
           ]
         },
@@ -723,11 +787,11 @@
           "name": "Adclis Souza",
           "category": "C",
           "stagesPlayed": 2,
-          "bonusPoints": 0,
+          "bonusPoints": 15,
           "gamesPoints": 40,
           "wins": 3,
-          "points": 40,
-          "position": 4,
+          "points": 55,
+          "position": 6,
           "previousPosition": 7,
           "stages": [
             {
@@ -746,7 +810,7 @@
               "vitorias": 1,
               "pontos": 20,
               "cumulativeTotal": 55,
-              "position": 4
+              "position": 6
             }
           ]
         },
@@ -755,11 +819,11 @@
           "name": "Tati Talamine",
           "category": "C",
           "stagesPlayed": 2,
-          "bonusPoints": 0,
+          "bonusPoints": 15,
           "gamesPoints": 40,
           "wins": 2,
-          "points": 40,
-          "position": 5,
+          "points": 55,
+          "position": 7,
           "previousPosition": 8,
           "stages": [
             {
@@ -778,7 +842,7 @@
               "vitorias": 2,
               "pontos": 20,
               "cumulativeTotal": 55,
-              "position": 5
+              "position": 7
             }
           ]
         },
@@ -791,7 +855,7 @@
           "gamesPoints": 50,
           "wins": 4,
           "points": 50,
-          "position": 6,
+          "position": 8,
           "previousPosition": 3,
           "stages": [
             {
@@ -810,7 +874,39 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 50,
-              "position": 6
+              "position": 8
+            }
+          ]
+        },
+        {
+          "id": "c-danielle-borba",
+          "name": "Danielle Borba",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 40,
+          "wins": 3,
+          "points": 40,
+          "position": 9,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 26,
+              "vitorias": 3,
+              "pontos": 40,
+              "cumulativeTotal": 40,
+              "position": 9
             }
           ]
         },
@@ -823,7 +919,7 @@
           "gamesPoints": 20,
           "wins": 5,
           "points": 20,
-          "position": 7,
+          "position": 10,
           "previousPosition": 5,
           "stages": [
             {
@@ -842,7 +938,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 7
+              "position": 10
             }
           ]
         },
@@ -855,7 +951,7 @@
           "gamesPoints": 20,
           "wins": 4,
           "points": 20,
-          "position": 8,
+          "position": 11,
           "previousPosition": null,
           "stages": [
             {
@@ -874,7 +970,7 @@
               "vitorias": 4,
               "pontos": 20,
               "cumulativeTotal": 20,
-              "position": 8
+              "position": 11
             }
           ]
         },
@@ -887,7 +983,7 @@
           "gamesPoints": 20,
           "wins": 3,
           "points": 20,
-          "position": 9,
+          "position": 12,
           "previousPosition": 6,
           "stages": [
             {
@@ -906,39 +1002,7 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 9
-            }
-          ]
-        },
-        {
-          "id": "c-isabela-marteleto",
-          "name": "Isabela Marteleto",
-          "category": "C",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 0,
-          "wins": 7,
-          "points": 0,
-          "position": 10,
-          "previousPosition": null,
-          "stages": [
-            {
-              "stageIndex": 1,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 0,
-              "position": null
-            },
-            {
-              "stageIndex": 2,
-              "played": true,
-              "resultado": 34,
-              "vitorias": 7,
-              "pontos": 0,
-              "cumulativeTotal": 0,
-              "position": 10
+              "position": 12
             }
           ]
         }
@@ -1027,12 +1091,36 @@
           "hasData": true,
           "ranking": [
             {
+              "playerId": "c-isabela-marteleto",
+              "name": "Isabela Marteleto",
+              "resultado": 34,
+              "vitorias": 7,
+              "pontos": 100,
+              "position": 1
+            },
+            {
+              "playerId": "c-monica-beltrame",
+              "name": "Mônica Beltrame",
+              "resultado": 31,
+              "vitorias": 2,
+              "pontos": 70,
+              "position": 2
+            },
+            {
               "playerId": "c-cintia-claudino",
               "name": "Cíntia Claudino",
               "resultado": 27,
               "vitorias": 4,
               "pontos": 50,
-              "position": 1
+              "position": 3
+            },
+            {
+              "playerId": "c-danielle-borba",
+              "name": "Danielle Borba",
+              "resultado": 26,
+              "vitorias": 3,
+              "pontos": 40,
+              "position": 4
             },
             {
               "playerId": "c-helo-pugsley",
@@ -1040,7 +1128,7 @@
               "resultado": 23,
               "vitorias": 4,
               "pontos": 20,
-              "position": 2
+              "position": 5
             },
             {
               "playerId": "c-ale-nunes",
@@ -1048,7 +1136,7 @@
               "resultado": 20,
               "vitorias": 3,
               "pontos": 20,
-              "position": 3
+              "position": 6
             },
             {
               "playerId": "c-adclis-souza",
@@ -1056,7 +1144,7 @@
               "resultado": 18,
               "vitorias": 1,
               "pontos": 20,
-              "position": 4
+              "position": 7
             },
             {
               "playerId": "c-tati-talamine",
@@ -1064,21 +1152,13 @@
               "resultado": 17,
               "vitorias": 2,
               "pontos": 20,
-              "position": 5
-            },
-            {
-              "playerId": "c-isabela-marteleto",
-              "name": "Isabela Marteleto",
-              "resultado": 34,
-              "vitorias": 7,
-              "pontos": 0,
-              "position": 6
+              "position": 8
             }
           ]
         }
       ],
       "leaderId": "c-cintia-claudino",
-      "risingPlayerId": "c-adclis-souza",
+      "risingPlayerId": "c-cintia-claudino",
       "lastStageId": "C2"
     }
   }
