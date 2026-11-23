@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T18:50:31.600Z",
+  "generatedAt": "2026-11-23T23:11:04.259Z",
   "sourceFile": "google-sheets-download.xlsx",
   "categories": {
     "E": {
@@ -9,13 +9,13 @@
           "id": "e-isadora-freitas",
           "name": "Isadora Freitas",
           "category": "E",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 100,
-          "wins": 3,
-          "points": 100,
+          "stagesPlayed": 3,
+          "bonusPoints": 35,
+          "gamesPoints": 190,
+          "wins": 12,
+          "points": 225,
           "position": 1,
-          "previousPosition": null,
+          "previousPosition": 2,
           "stages": [
             {
               "stageIndex": 1,
@@ -25,28 +25,64 @@
               "pontos": 100,
               "cumulativeTotal": 100,
               "position": 1
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 25,
+              "vitorias": 4,
+              "pontos": 20,
+              "cumulativeTotal": 135,
+              "position": 2
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 30,
+              "vitorias": 5,
+              "pontos": 70,
+              "cumulativeTotal": 225,
+              "position": 1
             }
           ]
         },
         {
-          "id": "e-regina-kuradomi",
-          "name": "Regina Kuradomi",
+          "id": "e-rafa-bedin",
+          "name": "Rafa Bedin",
           "category": "E",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 70,
-          "wins": 2,
-          "points": 70,
+          "stagesPlayed": 3,
+          "bonusPoints": 35,
+          "gamesPoints": 170,
+          "wins": 12,
+          "points": 205,
           "position": 2,
-          "previousPosition": null,
+          "previousPosition": 3,
           "stages": [
             {
               "stageIndex": 1,
               "played": true,
-              "resultado": 17,
-              "vitorias": 2,
-              "pontos": 70,
-              "cumulativeTotal": 70,
+              "resultado": 12,
+              "vitorias": 1,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 6
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 31,
+              "vitorias": 6,
+              "pontos": 100,
+              "cumulativeTotal": 135,
+              "position": 3
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 25,
+              "vitorias": 5,
+              "pontos": 50,
+              "cumulativeTotal": 205,
               "position": 2
             }
           ]
@@ -55,13 +91,13 @@
           "id": "e-monica-flenik",
           "name": "Mônica Flenik",
           "category": "E",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 50,
-          "wins": 4,
-          "points": 50,
+          "stagesPlayed": 3,
+          "bonusPoints": 35,
+          "gamesPoints": 140,
+          "wins": 11,
+          "points": 175,
           "position": 3,
-          "previousPosition": null,
+          "previousPosition": 1,
           "stages": [
             {
               "stageIndex": 1,
@@ -71,6 +107,188 @@
               "pontos": 50,
               "cumulativeTotal": 50,
               "position": 3
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 29,
+              "vitorias": 4,
+              "pontos": 70,
+              "cumulativeTotal": 135,
+              "position": 1
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 20,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 175,
+              "position": 3
+            }
+          ]
+        },
+        {
+          "id": "e-regina-kuradomi",
+          "name": "Regina Kuradomi",
+          "category": "E",
+          "stagesPlayed": 3,
+          "bonusPoints": 35,
+          "gamesPoints": 130,
+          "wins": 8,
+          "points": 165,
+          "position": 4,
+          "previousPosition": 4,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 17,
+              "vitorias": 2,
+              "pontos": 70,
+              "cumulativeTotal": 70,
+              "position": 2
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 27,
+              "vitorias": 3,
+              "pontos": 40,
+              "cumulativeTotal": 125,
+              "position": 4
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 25,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 165,
+              "position": 4
+            }
+          ]
+        },
+        {
+          "id": "e-nilsilene-yoshizawa",
+          "name": "Nilsilene Yoshizawa",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 100,
+          "wins": 5,
+          "points": 100,
+          "position": 5,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 35,
+              "vitorias": 5,
+              "pontos": 100,
+              "cumulativeTotal": 100,
+              "position": 5
+            }
+          ]
+        },
+        {
+          "id": "e-carolina-agottani",
+          "name": "Carolina Agottani",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 50,
+          "wins": 4,
+          "points": 50,
+          "position": 6,
+          "previousPosition": 5,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 27,
+              "vitorias": 4,
+              "pontos": 50,
+              "cumulativeTotal": 50,
+              "position": 5
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 50,
+              "position": 6
+            }
+          ]
+        },
+        {
+          "id": "e-eliane-alves",
+          "name": "Eliane Alves",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 40,
+          "wins": 3,
+          "points": 40,
+          "position": 7,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 25,
+              "vitorias": 3,
+              "pontos": 40,
+              "cumulativeTotal": 40,
+              "position": 7
             }
           ]
         },
@@ -83,8 +301,8 @@
           "gamesPoints": 40,
           "wins": 2,
           "points": 40,
-          "position": 4,
-          "previousPosition": null,
+          "position": 8,
+          "previousPosition": 6,
           "stages": [
             {
               "stageIndex": 1,
@@ -94,6 +312,24 @@
               "pontos": 40,
               "cumulativeTotal": 40,
               "position": 4
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 40,
+              "position": 6
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 40,
+              "position": 8
             }
           ]
         },
@@ -101,13 +337,13 @@
           "id": "e-marina-perez",
           "name": "Marina Perez",
           "category": "E",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
           "gamesPoints": 20,
-          "wins": 3,
-          "points": 20,
-          "position": 5,
-          "previousPosition": null,
+          "wins": 6,
+          "points": 35,
+          "position": 9,
+          "previousPosition": 7,
           "stages": [
             {
               "stageIndex": 1,
@@ -117,29 +353,188 @@
               "pontos": 20,
               "cumulativeTotal": 20,
               "position": 5
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 21,
+              "vitorias": 3,
+              "pontos": 0,
+              "cumulativeTotal": 35,
+              "position": 7
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 35,
+              "position": 9
             }
           ]
         },
         {
-          "id": "e-rafa-bedin",
-          "name": "Rafa Bedin",
+          "id": "e-fran-santos",
+          "name": "Fran Santos",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 20,
+          "wins": 3,
+          "points": 20,
+          "position": 10,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 22,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 10
+            }
+          ]
+        },
+        {
+          "id": "e-wendy-andretta",
+          "name": "Wendy Andretta",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 20,
+          "wins": 3,
+          "points": 20,
+          "position": 11,
+          "previousPosition": 8,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 21,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 8
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 11
+            }
+          ]
+        },
+        {
+          "id": "e-camilly-da-silva",
+          "name": "Camilly da Silva",
           "category": "E",
           "stagesPlayed": 1,
           "bonusPoints": 0,
           "gamesPoints": 20,
           "wins": 1,
           "points": 20,
-          "position": 6,
+          "position": 12,
+          "previousPosition": 9,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 15,
+              "vitorias": 1,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 9
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 12
+            }
+          ]
+        },
+        {
+          "id": "e-eraildes-da-silva",
+          "name": "Eraildes da Silva",
+          "category": "E",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 20,
+          "wins": 1,
+          "points": 20,
+          "position": 13,
           "previousPosition": null,
           "stages": [
             {
               "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
               "played": true,
-              "resultado": 12,
+              "resultado": 14,
               "vitorias": 1,
               "pontos": 20,
               "cumulativeTotal": 20,
-              "position": 6
+              "position": 13
             }
           ]
         },
@@ -152,8 +547,8 @@
           "gamesPoints": 20,
           "wins": 0,
           "points": 20,
-          "position": 7,
-          "previousPosition": null,
+          "position": 14,
+          "previousPosition": 10,
           "stages": [
             {
               "stageIndex": 1,
@@ -163,6 +558,24 @@
               "pontos": 20,
               "cumulativeTotal": 20,
               "position": 7
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 10
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 14
             }
           ]
         },
@@ -175,8 +588,8 @@
           "gamesPoints": 20,
           "wins": 0,
           "points": 20,
-          "position": 8,
-          "previousPosition": null,
+          "position": 15,
+          "previousPosition": 11,
           "stages": [
             {
               "stageIndex": 1,
@@ -186,6 +599,24 @@
               "pontos": 20,
               "cumulativeTotal": 20,
               "position": 8
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 11
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 15
             }
           ]
         }
@@ -264,76 +695,201 @@
               "position": 8
             }
           ]
+        },
+        {
+          "id": "E2",
+          "category": "E",
+          "index": 2,
+          "label": "Etapa 2",
+          "date": "12/11",
+          "hasData": true,
+          "ranking": [
+            {
+              "playerId": "e-rafa-bedin",
+              "name": "Rafa Bedin",
+              "resultado": 31,
+              "vitorias": 6,
+              "pontos": 100,
+              "position": 1
+            },
+            {
+              "playerId": "e-monica-flenik",
+              "name": "Mônica Flenik",
+              "resultado": 29,
+              "vitorias": 4,
+              "pontos": 70,
+              "position": 2
+            },
+            {
+              "playerId": "e-carolina-agottani",
+              "name": "Carolina Agottani",
+              "resultado": 27,
+              "vitorias": 4,
+              "pontos": 50,
+              "position": 3
+            },
+            {
+              "playerId": "e-regina-kuradomi",
+              "name": "Regina Kuradomi",
+              "resultado": 27,
+              "vitorias": 3,
+              "pontos": 40,
+              "position": 4
+            },
+            {
+              "playerId": "e-isadora-freitas",
+              "name": "Isadora Freitas",
+              "resultado": 25,
+              "vitorias": 4,
+              "pontos": 20,
+              "position": 5
+            },
+            {
+              "playerId": "e-wendy-andretta",
+              "name": "Wendy Andretta",
+              "resultado": 21,
+              "vitorias": 3,
+              "pontos": 20,
+              "position": 6
+            },
+            {
+              "playerId": "e-camilly-da-silva",
+              "name": "Camilly da Silva",
+              "resultado": 15,
+              "vitorias": 1,
+              "pontos": 20,
+              "position": 7
+            },
+            {
+              "playerId": "e-marina-perez",
+              "name": "Marina Perez",
+              "resultado": 21,
+              "vitorias": 3,
+              "pontos": 0,
+              "position": 8
+            }
+          ]
+        },
+        {
+          "id": "E3",
+          "category": "E",
+          "index": 3,
+          "label": "Etapa 3",
+          "date": "21/11",
+          "hasData": true,
+          "ranking": [
+            {
+              "playerId": "e-nilsilene-yoshizawa",
+              "name": "Nilsilene Yoshizawa",
+              "resultado": 35,
+              "vitorias": 5,
+              "pontos": 100,
+              "position": 1
+            },
+            {
+              "playerId": "e-isadora-freitas",
+              "name": "Isadora Freitas",
+              "resultado": 30,
+              "vitorias": 5,
+              "pontos": 70,
+              "position": 2
+            },
+            {
+              "playerId": "e-rafa-bedin",
+              "name": "Rafa Bedin",
+              "resultado": 25,
+              "vitorias": 5,
+              "pontos": 50,
+              "position": 3
+            },
+            {
+              "playerId": "e-eliane-alves",
+              "name": "Eliane Alves",
+              "resultado": 25,
+              "vitorias": 3,
+              "pontos": 40,
+              "position": 4
+            },
+            {
+              "playerId": "e-regina-kuradomi",
+              "name": "Regina Kuradomi",
+              "resultado": 25,
+              "vitorias": 3,
+              "pontos": 20,
+              "position": 5
+            },
+            {
+              "playerId": "e-fran-santos",
+              "name": "Fran Santos",
+              "resultado": 22,
+              "vitorias": 3,
+              "pontos": 20,
+              "position": 6
+            },
+            {
+              "playerId": "e-monica-flenik",
+              "name": "Mônica Flenik",
+              "resultado": 20,
+              "vitorias": 3,
+              "pontos": 20,
+              "position": 7
+            },
+            {
+              "playerId": "e-eraildes-da-silva",
+              "name": "Eraildes da Silva",
+              "resultado": 14,
+              "vitorias": 1,
+              "pontos": 20,
+              "position": 8
+            }
+          ]
         }
       ],
       "leaderId": "e-isadora-freitas",
-      "risingPlayerId": null,
-      "lastStageId": "E1"
+      "risingPlayerId": "e-isadora-freitas",
+      "lastStageId": "E3"
     },
     "D": {
       "category": "D",
       "players": [
         {
-          "id": "d-jacqueline-saldanha",
-          "name": "Jacqueline Saldanha",
+          "id": "d-natalia-urias",
+          "name": "Natália Urias",
           "category": "D",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 100,
-          "wins": 7,
-          "points": 100,
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
+          "gamesPoints": 200,
+          "wins": 9,
+          "points": 215,
           "position": 1,
-          "previousPosition": null,
+          "previousPosition": 3,
           "stages": [
             {
               "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
               "played": true,
-              "resultado": 33,
-              "vitorias": 7,
+              "resultado": 30,
+              "vitorias": 5,
               "pontos": 100,
               "cumulativeTotal": 100,
-              "position": 1
+              "position": 3
             },
             {
-              "stageIndex": 2,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 100,
-              "position": 1
-            }
-          ]
-        },
-        {
-          "id": "d-monique-chalupe",
-          "name": "Monique Chalupe",
-          "category": "D",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 70,
-          "wins": 5,
-          "points": 70,
-          "position": 2,
-          "previousPosition": null,
-          "stages": [
-            {
-              "stageIndex": 1,
+              "stageIndex": 3,
               "played": true,
               "resultado": 29,
-              "vitorias": 5,
-              "pontos": 70,
-              "cumulativeTotal": 70,
-              "position": 2
-            },
-            {
-              "stageIndex": 2,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 70,
-              "position": 2
+              "vitorias": 4,
+              "pontos": 100,
+              "cumulativeTotal": 215,
+              "position": 1
             }
           ]
         },
@@ -341,13 +897,13 @@
           "id": "d-talita-cantarella",
           "name": "Talita Cantarella",
           "category": "D",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 50,
-          "wins": 3,
-          "points": 50,
-          "position": 3,
-          "previousPosition": null,
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
+          "gamesPoints": 120,
+          "wins": 8,
+          "points": 135,
+          "position": 2,
+          "previousPosition": 8,
           "stages": [
             {
               "stageIndex": 1,
@@ -365,7 +921,385 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 50,
+              "position": 8
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 28,
+              "vitorias": 5,
+              "pontos": 70,
+              "cumulativeTotal": 135,
+              "position": 2
+            }
+          ]
+        },
+        {
+          "id": "d-priscila-schutze",
+          "name": "Priscila Schutze",
+          "category": "D",
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
+          "gamesPoints": 90,
+          "wins": 8,
+          "points": 105,
+          "position": 3,
+          "previousPosition": 7,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 27,
+              "vitorias": 4,
+              "pontos": 50,
+              "cumulativeTotal": 50,
+              "position": 7
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 25,
+              "vitorias": 4,
+              "pontos": 40,
+              "cumulativeTotal": 105,
               "position": 3
+            }
+          ]
+        },
+        {
+          "id": "d-monique-chalupe",
+          "name": "Monique Chalupe",
+          "category": "D",
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
+          "gamesPoints": 90,
+          "wins": 7,
+          "points": 105,
+          "position": 4,
+          "previousPosition": 1,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 29,
+              "vitorias": 5,
+              "pontos": 70,
+              "cumulativeTotal": 70,
+              "position": 2
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 23,
+              "vitorias": 2,
+              "pontos": 20,
+              "cumulativeTotal": 105,
+              "position": 1
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 105,
+              "position": 4
+            }
+          ]
+        },
+        {
+          "id": "d-jacqueline-saldanha",
+          "name": "Jacqueline Saldanha",
+          "category": "D",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 100,
+          "wins": 7,
+          "points": 100,
+          "position": 5,
+          "previousPosition": 2,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 33,
+              "vitorias": 7,
+              "pontos": 100,
+              "cumulativeTotal": 100,
+              "position": 1
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 100,
+              "position": 2
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 100,
+              "position": 5
+            }
+          ]
+        },
+        {
+          "id": "d-josy-moura",
+          "name": "Josy Moura",
+          "category": "D",
+          "stagesPlayed": 3,
+          "bonusPoints": 35,
+          "gamesPoints": 60,
+          "wins": 8,
+          "points": 95,
+          "position": 6,
+          "previousPosition": 5,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 21,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 5
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 21,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 55,
+              "position": 5
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 20,
+              "vitorias": 2,
+              "pontos": 20,
+              "cumulativeTotal": 95,
+              "position": 6
+            }
+          ]
+        },
+        {
+          "id": "d-cris-favorito",
+          "name": "Cris Favorito",
+          "category": "D",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 70,
+          "wins": 4,
+          "points": 70,
+          "position": 7,
+          "previousPosition": 4,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 27,
+              "vitorias": 4,
+              "pontos": 70,
+              "cumulativeTotal": 70,
+              "position": 4
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 70,
+              "position": 7
+            }
+          ]
+        },
+        {
+          "id": "d-martina-siqueira",
+          "name": "Martina Siqueira",
+          "category": "D",
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
+          "gamesPoints": 40,
+          "wins": 7,
+          "points": 55,
+          "position": 8,
+          "previousPosition": 11,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 21,
+              "vitorias": 4,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 11
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 25,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 55,
+              "position": 8
+            }
+          ]
+        },
+        {
+          "id": "d-rafa-tiepo",
+          "name": "Rafa Tiepo",
+          "category": "D",
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
+          "gamesPoints": 40,
+          "wins": 6,
+          "points": 55,
+          "position": 9,
+          "previousPosition": 6,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 21,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 7
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 22,
+              "vitorias": 3,
+              "pontos": 20,
+              "cumulativeTotal": 55,
+              "position": 6
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 55,
+              "position": 9
+            }
+          ]
+        },
+        {
+          "id": "d-manu-portas",
+          "name": "Manu Portas",
+          "category": "D",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 50,
+          "wins": 5,
+          "points": 50,
+          "position": 10,
+          "previousPosition": null,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 26,
+              "vitorias": 5,
+              "pontos": 50,
+              "cumulativeTotal": 50,
+              "position": 10
+            }
+          ]
+        },
+        {
+          "id": "d-gisele-mendes",
+          "name": "Gisele Mendes",
+          "category": "D",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 40,
+          "wins": 3,
+          "points": 40,
+          "position": 11,
+          "previousPosition": 9,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 24,
+              "vitorias": 3,
+              "pontos": 40,
+              "cumulativeTotal": 40,
+              "position": 9
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 40,
+              "position": 11
             }
           ]
         },
@@ -378,8 +1312,8 @@
           "gamesPoints": 40,
           "wins": 3,
           "points": 40,
-          "position": 4,
-          "previousPosition": null,
+          "position": 12,
+          "previousPosition": 10,
           "stages": [
             {
               "stageIndex": 1,
@@ -397,30 +1331,39 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 40,
-              "position": 4
+              "position": 10
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 40,
+              "position": 12
             }
           ]
         },
         {
-          "id": "d-josy-moura",
-          "name": "Josy Moura",
+          "id": "d-gabi-kawamura",
+          "name": "Gabi Kawamura",
           "category": "D",
           "stagesPlayed": 1,
           "bonusPoints": 0,
           "gamesPoints": 20,
           "wins": 3,
           "points": 20,
-          "position": 5,
+          "position": 13,
           "previousPosition": null,
           "stages": [
             {
               "stageIndex": 1,
-              "played": true,
-              "resultado": 21,
-              "vitorias": 3,
-              "pontos": 20,
-              "cumulativeTotal": 20,
-              "position": 5
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
             },
             {
               "stageIndex": 2,
@@ -428,8 +1371,17 @@
               "resultado": 0,
               "vitorias": 0,
               "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 25,
+              "vitorias": 3,
+              "pontos": 20,
               "cumulativeTotal": 20,
-              "position": 5
+              "position": 13
             }
           ]
         },
@@ -442,8 +1394,8 @@
           "gamesPoints": 20,
           "wins": 3,
           "points": 20,
-          "position": 6,
-          "previousPosition": null,
+          "position": 14,
+          "previousPosition": 12,
           "stages": [
             {
               "stageIndex": 1,
@@ -461,30 +1413,39 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 6
+              "position": 12
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 14
             }
           ]
         },
         {
-          "id": "d-rafa-tiepo",
-          "name": "Rafa Tiepo",
+          "id": "d-regina-k",
+          "name": "Regina K.",
           "category": "D",
           "stagesPlayed": 1,
           "bonusPoints": 0,
           "gamesPoints": 20,
-          "wins": 3,
+          "wins": 2,
           "points": 20,
-          "position": 7,
+          "position": 15,
           "previousPosition": null,
           "stages": [
             {
               "stageIndex": 1,
-              "played": true,
-              "resultado": 21,
-              "vitorias": 3,
-              "pontos": 20,
-              "cumulativeTotal": 20,
-              "position": 7
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
             },
             {
               "stageIndex": 2,
@@ -492,8 +1453,17 @@
               "resultado": 0,
               "vitorias": 0,
               "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 18,
+              "vitorias": 2,
+              "pontos": 20,
               "cumulativeTotal": 20,
-              "position": 7
+              "position": 15
             }
           ]
         },
@@ -506,8 +1476,8 @@
           "gamesPoints": 20,
           "wins": 1,
           "points": 20,
-          "position": 8,
-          "previousPosition": null,
+          "position": 16,
+          "previousPosition": 13,
           "stages": [
             {
               "stageIndex": 1,
@@ -525,7 +1495,16 @@
               "vitorias": 0,
               "pontos": 0,
               "cumulativeTotal": 20,
-              "position": 8
+              "position": 13
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 16
             }
           ]
         }
@@ -611,13 +1590,152 @@
           "index": 2,
           "label": "Etapa 2",
           "date": "13/11",
-          "hasData": false,
-          "ranking": []
+          "hasData": true,
+          "ranking": [
+            {
+              "playerId": "d-natalia-urias",
+              "name": "Natália Urias",
+              "resultado": 30,
+              "vitorias": 5,
+              "pontos": 100,
+              "position": 1
+            },
+            {
+              "playerId": "d-cris-favorito",
+              "name": "Cris Favorito",
+              "resultado": 27,
+              "vitorias": 4,
+              "pontos": 70,
+              "position": 2
+            },
+            {
+              "playerId": "d-priscila-schutze",
+              "name": "Priscila Schutze",
+              "resultado": 27,
+              "vitorias": 4,
+              "pontos": 50,
+              "position": 3
+            },
+            {
+              "playerId": "d-gisele-mendes",
+              "name": "Gisele Mendes",
+              "resultado": 24,
+              "vitorias": 3,
+              "pontos": 40,
+              "position": 4
+            },
+            {
+              "playerId": "d-monique-chalupe",
+              "name": "Monique Chalupe",
+              "resultado": 23,
+              "vitorias": 2,
+              "pontos": 20,
+              "position": 5
+            },
+            {
+              "playerId": "d-rafa-tiepo",
+              "name": "Rafa Tiepo",
+              "resultado": 22,
+              "vitorias": 3,
+              "pontos": 20,
+              "position": 6
+            },
+            {
+              "playerId": "d-martina-siqueira",
+              "name": "Martina Siqueira",
+              "resultado": 21,
+              "vitorias": 4,
+              "pontos": 20,
+              "position": 7
+            },
+            {
+              "playerId": "d-josy-moura",
+              "name": "Josy Moura",
+              "resultado": 21,
+              "vitorias": 3,
+              "pontos": 20,
+              "position": 8
+            }
+          ]
+        },
+        {
+          "id": "D3",
+          "category": "D",
+          "index": 3,
+          "label": "Etapa 3",
+          "date": "22/11",
+          "hasData": true,
+          "ranking": [
+            {
+              "playerId": "d-natalia-urias",
+              "name": "Natália Urias",
+              "resultado": 29,
+              "vitorias": 4,
+              "pontos": 100,
+              "position": 1
+            },
+            {
+              "playerId": "d-talita-cantarella",
+              "name": "Talita Cantarella",
+              "resultado": 28,
+              "vitorias": 5,
+              "pontos": 70,
+              "position": 2
+            },
+            {
+              "playerId": "d-manu-portas",
+              "name": "Manu Portas",
+              "resultado": 26,
+              "vitorias": 5,
+              "pontos": 50,
+              "position": 3
+            },
+            {
+              "playerId": "d-priscila-schutze",
+              "name": "Priscila Schutze",
+              "resultado": 25,
+              "vitorias": 4,
+              "pontos": 40,
+              "position": 4
+            },
+            {
+              "playerId": "d-gabi-kawamura",
+              "name": "Gabi Kawamura",
+              "resultado": 25,
+              "vitorias": 3,
+              "pontos": 20,
+              "position": 5
+            },
+            {
+              "playerId": "d-martina-siqueira",
+              "name": "Martina Siqueira",
+              "resultado": 25,
+              "vitorias": 3,
+              "pontos": 20,
+              "position": 6
+            },
+            {
+              "playerId": "d-josy-moura",
+              "name": "Josy Moura",
+              "resultado": 20,
+              "vitorias": 2,
+              "pontos": 20,
+              "position": 7
+            },
+            {
+              "playerId": "d-regina-k",
+              "name": "Regina K.",
+              "resultado": 18,
+              "vitorias": 2,
+              "pontos": 20,
+              "position": 8
+            }
+          ]
         }
       ],
-      "leaderId": "d-jacqueline-saldanha",
-      "risingPlayerId": null,
-      "lastStageId": "D1"
+      "leaderId": "d-natalia-urias",
+      "risingPlayerId": "d-talita-cantarella",
+      "lastStageId": "D3"
     },
     "C": {
       "category": "C",
@@ -626,13 +1744,13 @@
           "id": "c-cintia-claudino",
           "name": "Cíntia Claudino",
           "category": "C",
-          "stagesPlayed": 2,
-          "bonusPoints": 15,
-          "gamesPoints": 120,
-          "wins": 9,
-          "points": 135,
+          "stagesPlayed": 3,
+          "bonusPoints": 35,
+          "gamesPoints": 160,
+          "wins": 13,
+          "points": 195,
           "position": 1,
-          "previousPosition": 2,
+          "previousPosition": 1,
           "stages": [
             {
               "stageIndex": 1,
@@ -651,70 +1769,56 @@
               "pontos": 50,
               "cumulativeTotal": 135,
               "position": 1
-            }
-          ]
-        },
-        {
-          "id": "c-isabela-marteleto",
-          "name": "Isabela Marteleto",
-          "category": "C",
-          "stagesPlayed": 1,
-          "bonusPoints": 15,
-          "gamesPoints": 100,
-          "wins": 7,
-          "points": 115,
-          "position": 2,
-          "previousPosition": null,
-          "stages": [
-            {
-              "stageIndex": 1,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 0,
-              "position": null
             },
             {
-              "stageIndex": 2,
+              "stageIndex": 3,
               "played": true,
-              "resultado": 34,
-              "vitorias": 7,
-              "pontos": 100,
-              "cumulativeTotal": 100,
-              "position": 2
-            }
-          ]
-        },
-        {
-          "id": "c-vivian-coelho",
-          "name": "Vivian Coelho",
-          "category": "C",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 100,
-          "wins": 6,
-          "points": 100,
-          "position": 3,
-          "previousPosition": 1,
-          "stages": [
-            {
-              "stageIndex": 1,
-              "played": true,
-              "resultado": 35,
-              "vitorias": 6,
-              "pontos": 100,
-              "cumulativeTotal": 100,
+              "resultado": 25,
+              "vitorias": 4,
+              "pontos": 40,
+              "cumulativeTotal": 195,
               "position": 1
+            }
+          ]
+        },
+        {
+          "id": "c-tati-talamine",
+          "name": "Tati Talamine",
+          "category": "C",
+          "stagesPlayed": 3,
+          "bonusPoints": 35,
+          "gamesPoints": 140,
+          "wins": 7,
+          "points": 175,
+          "position": 2,
+          "previousPosition": 7,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 17,
+              "vitorias": 0,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 8
             },
             {
               "stageIndex": 2,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 100,
-              "position": 3
+              "played": true,
+              "resultado": 17,
+              "vitorias": 2,
+              "pontos": 20,
+              "cumulativeTotal": 55,
+              "position": 7
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 31,
+              "vitorias": 5,
+              "pontos": 100,
+              "cumulativeTotal": 175,
+              "position": 2
             }
           ]
         },
@@ -722,12 +1826,12 @@
           "id": "c-ale-nunes",
           "name": "Alê Nunes",
           "category": "C",
-          "stagesPlayed": 2,
-          "bonusPoints": 15,
-          "gamesPoints": 60,
-          "wins": 6,
-          "points": 75,
-          "position": 4,
+          "stagesPlayed": 3,
+          "bonusPoints": 35,
+          "gamesPoints": 110,
+          "wins": 10,
+          "points": 145,
+          "position": 3,
           "previousPosition": 4,
           "stages": [
             {
@@ -747,20 +1851,29 @@
               "pontos": 20,
               "cumulativeTotal": 75,
               "position": 4
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 26,
+              "vitorias": 4,
+              "pontos": 50,
+              "cumulativeTotal": 145,
+              "position": 3
             }
           ]
         },
         {
-          "id": "c-monica-beltrame",
-          "name": "Mônica Beltrame",
+          "id": "c-isabela-marteleto",
+          "name": "Isabela Marteleto",
           "category": "C",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 70,
-          "wins": 2,
-          "points": 70,
-          "position": 5,
-          "previousPosition": null,
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
+          "gamesPoints": 120,
+          "wins": 10,
+          "points": 135,
+          "position": 4,
+          "previousPosition": 2,
           "stages": [
             {
               "stageIndex": 1,
@@ -774,107 +1887,20 @@
             {
               "stageIndex": 2,
               "played": true,
-              "resultado": 31,
-              "vitorias": 2,
-              "pontos": 70,
-              "cumulativeTotal": 70,
-              "position": 5
-            }
-          ]
-        },
-        {
-          "id": "c-adclis-souza",
-          "name": "Adclis Souza",
-          "category": "C",
-          "stagesPlayed": 2,
-          "bonusPoints": 15,
-          "gamesPoints": 40,
-          "wins": 3,
-          "points": 55,
-          "position": 6,
-          "previousPosition": 7,
-          "stages": [
-            {
-              "stageIndex": 1,
-              "played": true,
-              "resultado": 20,
-              "vitorias": 2,
-              "pontos": 20,
-              "cumulativeTotal": 20,
-              "position": 7
+              "resultado": 34,
+              "vitorias": 7,
+              "pontos": 100,
+              "cumulativeTotal": 100,
+              "position": 2
             },
             {
-              "stageIndex": 2,
+              "stageIndex": 3,
               "played": true,
-              "resultado": 18,
-              "vitorias": 1,
+              "resultado": 22,
+              "vitorias": 3,
               "pontos": 20,
-              "cumulativeTotal": 55,
-              "position": 6
-            }
-          ]
-        },
-        {
-          "id": "c-tati-talamine",
-          "name": "Tati Talamine",
-          "category": "C",
-          "stagesPlayed": 2,
-          "bonusPoints": 15,
-          "gamesPoints": 40,
-          "wins": 2,
-          "points": 55,
-          "position": 7,
-          "previousPosition": 8,
-          "stages": [
-            {
-              "stageIndex": 1,
-              "played": true,
-              "resultado": 17,
-              "vitorias": 0,
-              "pontos": 20,
-              "cumulativeTotal": 20,
-              "position": 8
-            },
-            {
-              "stageIndex": 2,
-              "played": true,
-              "resultado": 17,
-              "vitorias": 2,
-              "pontos": 20,
-              "cumulativeTotal": 55,
-              "position": 7
-            }
-          ]
-        },
-        {
-          "id": "c-gabriela-sivek",
-          "name": "Gabriela Sivek",
-          "category": "C",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 50,
-          "wins": 4,
-          "points": 50,
-          "position": 8,
-          "previousPosition": 3,
-          "stages": [
-            {
-              "stageIndex": 1,
-              "played": true,
-              "resultado": 26,
-              "vitorias": 4,
-              "pontos": 50,
-              "cumulativeTotal": 50,
-              "position": 3
-            },
-            {
-              "stageIndex": 2,
-              "played": false,
-              "resultado": 0,
-              "vitorias": 0,
-              "pontos": 0,
-              "cumulativeTotal": 50,
-              "position": 8
+              "cumulativeTotal": 135,
+              "position": 4
             }
           ]
         },
@@ -882,13 +1908,13 @@
           "id": "c-danielle-borba",
           "name": "Danielle Borba",
           "category": "C",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 40,
-          "wins": 3,
-          "points": 40,
-          "position": 9,
-          "previousPosition": null,
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
+          "gamesPoints": 110,
+          "wins": 7,
+          "points": 125,
+          "position": 5,
+          "previousPosition": 9,
           "stages": [
             {
               "stageIndex": 1,
@@ -907,29 +1933,79 @@
               "pontos": 40,
               "cumulativeTotal": 40,
               "position": 9
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 28,
+              "vitorias": 4,
+              "pontos": 70,
+              "cumulativeTotal": 125,
+              "position": 5
             }
           ]
         },
         {
-          "id": "c-mari-salvalaggio",
-          "name": "Mari Salvalaggio",
+          "id": "c-monica-beltrame",
+          "name": "Mônica Beltrame",
           "category": "C",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 20,
-          "wins": 5,
-          "points": 20,
-          "position": 10,
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
+          "gamesPoints": 90,
+          "wins": 9,
+          "points": 105,
+          "position": 6,
           "previousPosition": 5,
           "stages": [
             {
               "stageIndex": 1,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 0,
+              "position": null
+            },
+            {
+              "stageIndex": 2,
               "played": true,
-              "resultado": 22,
+              "resultado": 31,
+              "vitorias": 4,
+              "pontos": 70,
+              "cumulativeTotal": 70,
+              "position": 5
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 24,
               "vitorias": 5,
               "pontos": 20,
-              "cumulativeTotal": 20,
-              "position": 5
+              "cumulativeTotal": 105,
+              "position": 6
+            }
+          ]
+        },
+        {
+          "id": "c-vivian-coelho",
+          "name": "Vivian Coelho",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 100,
+          "wins": 6,
+          "points": 100,
+          "position": 7,
+          "previousPosition": 3,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 35,
+              "vitorias": 6,
+              "pontos": 100,
+              "cumulativeTotal": 100,
+              "position": 1
             },
             {
               "stageIndex": 2,
@@ -937,8 +2013,58 @@
               "resultado": 0,
               "vitorias": 0,
               "pontos": 0,
+              "cumulativeTotal": 100,
+              "position": 3
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 100,
+              "position": 7
+            }
+          ]
+        },
+        {
+          "id": "c-adclis-souza",
+          "name": "Adclis Souza",
+          "category": "C",
+          "stagesPlayed": 3,
+          "bonusPoints": 35,
+          "gamesPoints": 60,
+          "wins": 4,
+          "points": 95,
+          "position": 8,
+          "previousPosition": 6,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 20,
+              "vitorias": 2,
+              "pontos": 20,
               "cumulativeTotal": 20,
-              "position": 10
+              "position": 7
+            },
+            {
+              "stageIndex": 2,
+              "played": true,
+              "resultado": 18,
+              "vitorias": 1,
+              "pontos": 20,
+              "cumulativeTotal": 55,
+              "position": 6
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 15,
+              "vitorias": 1,
+              "pontos": 20,
+              "cumulativeTotal": 95,
+              "position": 8
             }
           ]
         },
@@ -946,13 +2072,13 @@
           "id": "c-helo-pugsley",
           "name": "Helô Pugsley",
           "category": "C",
-          "stagesPlayed": 1,
-          "bonusPoints": 0,
-          "gamesPoints": 20,
-          "wins": 4,
-          "points": 20,
-          "position": 11,
-          "previousPosition": null,
+          "stagesPlayed": 2,
+          "bonusPoints": 15,
+          "gamesPoints": 40,
+          "wins": 6,
+          "points": 55,
+          "position": 9,
+          "previousPosition": 11,
           "stages": [
             {
               "stageIndex": 1,
@@ -971,6 +2097,97 @@
               "pontos": 20,
               "cumulativeTotal": 20,
               "position": 11
+            },
+            {
+              "stageIndex": 3,
+              "played": true,
+              "resultado": 25,
+              "vitorias": 2,
+              "pontos": 20,
+              "cumulativeTotal": 55,
+              "position": 9
+            }
+          ]
+        },
+        {
+          "id": "c-gabriela-sivek",
+          "name": "Gabriela Sivek",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 50,
+          "wins": 4,
+          "points": 50,
+          "position": 10,
+          "previousPosition": 8,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 26,
+              "vitorias": 4,
+              "pontos": 50,
+              "cumulativeTotal": 50,
+              "position": 3
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 50,
+              "position": 8
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 50,
+              "position": 10
+            }
+          ]
+        },
+        {
+          "id": "c-mari-salvalaggio",
+          "name": "Mari Salvalaggio",
+          "category": "C",
+          "stagesPlayed": 1,
+          "bonusPoints": 0,
+          "gamesPoints": 20,
+          "wins": 5,
+          "points": 20,
+          "position": 11,
+          "previousPosition": 10,
+          "stages": [
+            {
+              "stageIndex": 1,
+              "played": true,
+              "resultado": 22,
+              "vitorias": 5,
+              "pontos": 20,
+              "cumulativeTotal": 20,
+              "position": 5
+            },
+            {
+              "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 10
+            },
+            {
+              "stageIndex": 3,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 11
             }
           ]
         },
@@ -984,7 +2201,7 @@
           "wins": 3,
           "points": 20,
           "position": 12,
-          "previousPosition": 6,
+          "previousPosition": 12,
           "stages": [
             {
               "stageIndex": 1,
@@ -997,6 +2214,15 @@
             },
             {
               "stageIndex": 2,
+              "played": false,
+              "resultado": 0,
+              "vitorias": 0,
+              "pontos": 0,
+              "cumulativeTotal": 20,
+              "position": 12
+            },
+            {
+              "stageIndex": 3,
               "played": false,
               "resultado": 0,
               "vitorias": 0,
@@ -1102,7 +2328,7 @@
               "playerId": "c-monica-beltrame",
               "name": "Mônica Beltrame",
               "resultado": 31,
-              "vitorias": 2,
+              "vitorias": 4,
               "pontos": 70,
               "position": 2
             },
@@ -1155,11 +2381,85 @@
               "position": 8
             }
           ]
+        },
+        {
+          "id": "C3",
+          "category": "C",
+          "index": 3,
+          "label": "Etapa 3",
+          "date": "16/11",
+          "hasData": true,
+          "ranking": [
+            {
+              "playerId": "c-tati-talamine",
+              "name": "Tati Talamine",
+              "resultado": 31,
+              "vitorias": 5,
+              "pontos": 100,
+              "position": 1
+            },
+            {
+              "playerId": "c-danielle-borba",
+              "name": "Danielle Borba",
+              "resultado": 28,
+              "vitorias": 4,
+              "pontos": 70,
+              "position": 2
+            },
+            {
+              "playerId": "c-ale-nunes",
+              "name": "Alê Nunes",
+              "resultado": 26,
+              "vitorias": 4,
+              "pontos": 50,
+              "position": 3
+            },
+            {
+              "playerId": "c-cintia-claudino",
+              "name": "Cíntia Claudino",
+              "resultado": 25,
+              "vitorias": 4,
+              "pontos": 40,
+              "position": 4
+            },
+            {
+              "playerId": "c-helo-pugsley",
+              "name": "Helô Pugsley",
+              "resultado": 25,
+              "vitorias": 2,
+              "pontos": 20,
+              "position": 5
+            },
+            {
+              "playerId": "c-monica-beltrame",
+              "name": "Mônica Beltrame",
+              "resultado": 24,
+              "vitorias": 5,
+              "pontos": 20,
+              "position": 6
+            },
+            {
+              "playerId": "c-isabela-marteleto",
+              "name": "Isabela Marteleto",
+              "resultado": 22,
+              "vitorias": 3,
+              "pontos": 20,
+              "position": 7
+            },
+            {
+              "playerId": "c-adclis-souza",
+              "name": "Adclis Souza",
+              "resultado": 15,
+              "vitorias": 1,
+              "pontos": 20,
+              "position": 8
+            }
+          ]
         }
       ],
       "leaderId": "c-cintia-claudino",
-      "risingPlayerId": "c-cintia-claudino",
-      "lastStageId": "C2"
+      "risingPlayerId": "c-tati-talamine",
+      "lastStageId": "C3"
     }
   }
 }
